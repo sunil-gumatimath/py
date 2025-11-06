@@ -11,9 +11,10 @@ This repository is a collection of Python scripts and projects, each designed to
 
 This repository is organized into the following directories:
 
--   `01-variables/`: Contains a script demonstrating the declaration and usage of different data types in Python (strings, integers, booleans, lists, dictionaries).
--   `02-operations/`: Contains a script demonstrating various arithmetic, comparison, and logical operations in Python.
--   `03-strings/`: Contains basic string operations and examples in Python.
+- `01-variables/`: Contains a script demonstrating the declaration and usage of different data types in Python (strings, integers, booleans, dictionaries).
+- `02-operations/`: Contains a script demonstrating various arithmetic, comparison, and logical operations in Python.
+- `03-strings/`: Contains basic string operations and examples in Python.
+- `04-lists/`: Contains a script demonstrating various list operations and methods in Python.
 
 ## Getting Started
 
@@ -28,6 +29,7 @@ python <script_name>.py
 ```
 
 For example, to run the variables script:
+
 ```bash
 cd 01-variables
 python variables.py
