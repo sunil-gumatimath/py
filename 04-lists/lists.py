@@ -4,7 +4,7 @@ print(len(empty_list))
 fruits = ['banana', 'orange', 'mango', 'lemon']                         # list of fruits
 vegetables = ['Tomato', 'Potato', 'Cabbage','Onion', 'Carrot']          # list of vegetables
 animal_products = ['milk', 'meat', 'butter', 'yoghurt']                 # list of animal products
-web_techs = ['HTML', 'CSS', 'JS', 'React','Redux', 'Node', 'MongDB']    # list of web technologies
+web_techs = ['HTML', 'CSS', 'JS', 'React','Redux', 'Node', 'MongoDB']    # list of web technologies
 countries = ['Finland', 'Estonia', 'Denmark', 'Sweden', 'Norway']
 
 # Print the lists and it length
