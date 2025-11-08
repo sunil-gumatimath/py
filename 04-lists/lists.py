@@ -94,3 +94,9 @@ print(fruits)                                                               # ['
 fruits.insert(3,'lime')                                                     # ['banana', 'apple', 'orange', 'lime', 'mango', 'lemon']
 print(fruits)
 
+# remove
+fruits = ['banana', 'orange', 'mango', 'lemon']
+fruits.remove('banana')
+print(fruits)  # ['orange', 'mango', 'lemon']
+fruits.remove('lemon')
+print(fruits)  # ['orange', 'mango']
