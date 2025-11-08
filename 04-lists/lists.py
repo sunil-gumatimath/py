@@ -97,6 +97,6 @@ print(fruits)
 # remove
 fruits = ['banana', 'orange', 'mango', 'lemon']
 fruits.remove('banana')
-print(fruits)  # ['orange', 'mango', 'lemon']
+print(fruits)                                                               # ['orange', 'mango', 'lemon']
 fruits.remove('lemon')
-print(fruits)  # ['orange', 'mango']
+print(fruits)                                                               # ['orange', 'mango']
