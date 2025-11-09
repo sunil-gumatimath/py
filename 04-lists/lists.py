@@ -162,3 +162,10 @@ fruits = ['banana', 'orange', 'mango', 'lemon']
 vegetables = ['Tomato', 'Potato', 'Cabbage','Onion', 'Carrot']
 fruits.extend(vegetables)
 print('Fruits and vegetables:', fruits)                                 # Fruits and vegetables: ['banana', 'orange', 'mango', 'lemon', 'Tomato', 'Potato', 'Cabbage', 'Onion', 'Carrot']
+
+# count
+fruits = ['banana', 'orange', 'mango', 'lemon']
+print(fruits.count('orange'))
+
+ages = [22, 19, 24, 25, 26, 24, 25, 24]
+print(ages.count(24))
