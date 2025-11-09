@@ -169,3 +169,10 @@ print(fruits.count('orange'))
 
 ages = [22, 19, 24, 25, 26, 24, 25, 24]
 print(ages.count(24))
+
+# index
+fruits = ['banana', 'orange', 'mango', 'lemon']
+print(fruits.index('mango'))
+
+ages = [22, 19, 24, 25, 26, 24, 25, 24]
+print(ages.index(25))
