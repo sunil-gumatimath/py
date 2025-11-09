@@ -128,5 +128,7 @@ print(fruits)
 # copying a lists
 fruits = ['banana', 'orange', 'mango', 'lemon']
 fruits_copy = fruits.copy()
-print(fruits_copy)                                                              # ['banana', 'orange', 'mango', 'lemon']
+fruits_copy_1 = fruits_copy[:]
+print(fruits_copy)            
+print(fruits_copy_1)                                                  # ['banana', 'orange', 'mango', 'lemon']
 
