@@ -119,3 +119,8 @@ print(fruits)                                                                 # 
 
 del fruits
 print(fruits)                                                                 # NameError: name 'fruits' is not defined
+
+# clear
+fruits = ['banana', 'orange', 'mango', 'lemon']
+fruits.clear()
+print(fruits)
