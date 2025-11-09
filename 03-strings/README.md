@@ -45,15 +45,6 @@ The script includes examples of:
 
 Each example prints output to help you see how the operations work.
 
-## How to Run
-
-From the repository root:
-
-```bash
-cd 03-strings
-python strings.py
-```
-
 Experiment by:
 
 - Changing the sample strings

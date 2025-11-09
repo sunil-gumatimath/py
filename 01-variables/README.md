@@ -21,12 +21,9 @@ This module introduces Python variables and core data types using the `variables
 
 Key examples included:
 
-- Personal information:
-  - `first_name`, `last_name`, `country`, `city`, `age`, `is_married`
-- A list of skills:
-  - `skills = ["java", "python", "react", "JS"]`
-- A dictionary of person details:
-  - `person_info = {"firstname": "Sunil", "country": "Bharat", "city": "Alamatti"}`
+- Personal information variables (strings, integers, booleans)
+- A list of skills
+- A dictionary of person details
 
 The script prints:
 
@@ -34,15 +31,6 @@ The script prints:
 - Length of first and last names
 - Full name and its length
 - Skills and dictionary content
-
-## How to Run
-
-From the repository root:
-
-```bash
-cd 01-variables
-python variables.py
-```
 
 Experiment by:
 

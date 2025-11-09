@@ -10,14 +10,9 @@ This repository is a collection of small Python scripts organized by topic. Each
 ## Project Structure
 
 - `01-variables/`
-  - Introduces Python variables and core data types:
-    - Strings, integers, booleans
-    - Lists
-    - Dictionaries
-  - Demonstrates:
-    - Declaring and initializing variables
-    - Basic string length checks
-    - Simple data printing and formatting
+  - Declaring and using variables
+  - Working with common data types: strings, integers, booleans, lists, dictionaries
+  - Basic operations: string concatenation, measuring length with `len()`, accessing list elements, printing structured information
 - `02-operations/`
   - Covers:
     - Arithmetic operations (`+`, `-`, `*`, `/`, `%`, `//`, `**`)
@@ -52,33 +47,6 @@ This repository is a collection of small Python scripts organized by topic. Each
     - Counting, indexing, reversing, and sorting
 
 Each directory contains a dedicated `README.md` describing its script in more detail.
-
-## Getting Started
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/sunil-gumatimath/py.git
-   cd py
-   ```
-
-2. Navigate to any topic directory:
-
-   ```bash
-   cd 01-variables
-   ```
-
-3. Run the corresponding script:
-
-   ```bash
-   python variables.py
-   ```
-
-Repeat similarly for:
-
-- `02-operations/operations.py`
-- `03-strings/strings.py`
-- `04-lists/lists.py`
 
 ## Recommended Usage
 

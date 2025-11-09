@@ -43,15 +43,6 @@ The script walks through:
 
 This provides a clear, step-by-step view of how Python evaluates expressions.
 
-## How to Run
-
-From the repository root:
-
-```bash
-cd 02-operations
-python operations.py
-```
-
 Experiment by:
 
 - Changing input values

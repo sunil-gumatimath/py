@@ -52,15 +52,6 @@ The script walks through:
 
 This provides a practical overview of how lists behave and how they are commonly manipulated in Python.
 
-## How to Run
-
-From the repository root:
-
-```bash
-cd 04-lists
-python lists.py
-```
-
 Experiment by:
 
 - Adding new items and re-running the script
