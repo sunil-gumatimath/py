@@ -132,3 +132,14 @@ fruits_copy_1 = fruits_copy[:]
 print(fruits_copy)            
 print(fruits_copy_1)                                                  # ['banana', 'orange', 'mango', 'lemon']
 
+#  join
+positive_numbers = [1,2,3,4,5]
+zero = [0]
+negative_numbers = [-5,-4,-3,-2,-1]
+integers = positive_numbers + zero + negative_numbers
+print(integers)                                                        # [1, 2, 3, 4, 5, 0, -5, -4, -3, -2, -1]
+
+fruits = ['banana', 'orange', 'mango', 'lemon']
+vegetables = ['Tomato', 'Potato', 'Cabbage','Onion', 'Carrot'] 
+fruits_and_vegetables = fruits + vegetables
+print(fruits_and_vegetables )                                          # ['banana', 'orange', 'mango', 'lemon', 'Tomato', 'Potato', 'Cabbage', 'Onion', 'Carrot']
