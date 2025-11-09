@@ -1,25 +1,51 @@
-# Python Variables Script
+# 01 - Python Variables
 
-This script, `variables.py`, demonstrates the declaration and usage of different data types in Python.
+This module introduces Python variables and core data types using the `variables.py` script. It is aimed at beginners who want to understand how to store, combine, and inspect data in Python.
 
-## Script Details (`variables.py`)
+## Concepts Covered
 
-The script initializes variables of the following types:
+- Declaring and using variables
+- Working with common data types:
+  - Strings
+  - Integers
+  - Booleans
+  - Lists
+  - Dictionaries
+- Basic operations:
+  - String concatenation
+  - Measuring string length with `len()`
+  - Accessing list elements
+  - Printing structured information
 
-*   **String**: `first_name`, `last_name`, `country`, `city`
-*   **Integer**: `age`
-*   **Boolean**: `is_married`
-*   **List**: `skills` (a list of strings)
-*   **Dictionary**: `person_info` (a collection of key-value pairs)
+## Script Overview (`variables.py`)
 
-It then performs basic operations such as string concatenation and calculating the length of strings, and prints the values and results to the console.
+Key examples included:
+
+- Personal information:
+  - `first_name`, `last_name`, `country`, `city`, `age`, `is_married`
+- A list of skills:
+  - `skills = ["java", "python", "react", "JS"]`
+- A dictionary of person details:
+  - `person_info = {"firstname": "Sunil", "country": "Bharat", "city": "Alamatti"}`
+
+The script prints:
+
+- Individual values
+- Length of first and last names
+- Full name and its length
+- Skills and dictionary content
 
 ## How to Run
 
-To run the script, you can use the following command in your terminal:
+From the repository root:
 
 ```bash
+cd 01-variables
 python variables.py
 ```
 
+Experiment by:
 
+- Changing variable values
+- Adding new variables and print statements
+- Observing how Python handles different data types

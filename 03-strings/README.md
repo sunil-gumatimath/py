@@ -1,36 +1,61 @@
-# Python Strings Script
+# 03 - Python Strings
 
-This script, `strings.py`, demonstrates various string operations and methods in Python.
+This module demonstrates how to work with strings in Python using the `strings.py` script. It is intended for beginners who want to understand string creation, manipulation, and common built-in methods.
 
-## Script Details (`strings.py`)
+## Concepts Covered
 
-The script covers the following string concepts and operations:
+- Single-line strings
+- Multi-line strings using triple quotes
+- Printing and measuring length with `len()`
+- String concatenation using `+`
+- Unpacking characters into variables
+- Indexing and negative indexing
+- Slicing strings
+- Escape sequences:
+  - `\n` (newline)
+  - `\t` (tab)
+  - `\\` (backslash)
+  - `\"` (double quote)
+- Common string methods:
+  - `capitalize()`
+  - `count()`
+  - `endswith()`
+  - `find()`
+  - `format()`
+  - `index()`
+  - `join()`
+  - `strip()`
+  - `replace()`
+  - `split()`
+  - `title()`
+  - `swapcase()`
+  - `startswith()`
 
-- **Single Line Strings**: Declaring strings with single or double quotes, printing, and checking length.
-- **Multiline Strings**: Using triple quotes for multiline strings.
-- **String Concatenation**: Combining strings using the `+` operator.
-- **Unpacking Characters**: Assigning string characters to individual variables.
-- **Accessing Characters by Index**: Using positive and negative indexing to access string characters.
-- **Slicing**: Extracting substrings using slice notation, including step slicing.
-- **Escape Sequences**: Using escape characters like `\n`, `\t`, `\\`, `\"` for formatting.
-- **String Methods**:
-  - `capitalize()`: Converts the first character to uppercase.
-  - `count()`: Counts occurrences of a substring.
-  - `endswith()`: Checks if the string ends with a specified suffix.
-  - `find()`: Returns the index of the first occurrence of a substring.
-  - `format()`: Formats strings with placeholders.
-  - `index()`: Similar to find, but raises an error if not found.
-  - `join()`: Joins elements of an iterable with the string as separator.
-  - `strip()`: Removes leading and trailing characters.
-  - `replace()`: Replaces occurrences of a substring.
-  - `split()`: Splits the string into a list.
-  - `title()`: Converts to title case.
-  - `swapcase()`: Swaps case of all characters.
-  - `startswith()`: Checks if the string starts with a specified prefix.
+## Script Overview (`strings.py`)
+
+The script includes examples of:
+
+- Declaring and printing strings
+- Concatenating `first_name` and `last_name` into `full_name`
+- Comparing string lengths
+- Accessing individual characters by index
+- Extracting substrings with slicing (including step slicing)
+- Demonstrating escape sequences in formatted text
+- Using multiple string methods to transform and inspect text
+
+Each example prints output to help you see how the operations work.
 
 ## How to Run
 
-To run the script, you can use the following command in your terminal:
+From the repository root:
 
 ```bash
+cd 03-strings
 python strings.py
+```
+
+Experiment by:
+
+- Changing the sample strings
+- Trying additional methods (e.g. `upper()`, `lower()`)
+- Modifying slices and observing the results
