@@ -1,59 +1,51 @@
 # 04 - Python Lists
 
-This module demonstrates how to work with lists in Python using the `lists.py` script. It is intended for beginners who want to understand list creation, indexing, slicing, modification, and common list methods.
+This module demonstrates how to work with lists in Python using the `lists.py` script. It is intended for beginners who want to understand list creation, indexing, slicing, modification, and common list methods through short, targeted print statements.
 
 ## Concepts Covered
 
 - Creating lists:
-  - Non-empty lists (e.g. fruits, vegetables, animal products, technologies, countries)
-  - Typed empty list: `empty_list: list[int] = []`
+  - Typed empty list annotation: `empty_list: list[int] = []`
+  - Populated lists (fruits, vegetables, animal products, web technologies, countries)
 - Inspecting lists:
-  - Printing lists
-  - Getting length with `len()`
-- Indexing:
-  - Accessing items by positive index
-  - Accessing items by negative index
-  - Finding the last index using `len(list) - 1`
-- Slicing:
-  - Basic slicing with start/stop
-  - Slicing with negative indices
-  - Getting all or partial segments of a list
+  - Printing contents
+  - Measuring length with `len()`
+- Indexing and slicing:
+  - Positive and negative indexing
+  - Finding the last index via `len(list) - 1`
+  - Standard slices, negative slices, and full-list slices
 - Modifying lists:
-  - Updating elements by index (positive and negative)
-- Membership:
-  - Checking if an element exists using `in`
+  - Replacing items by index (including negative indices)
+  - Membership checks with the `in` operator
 - Adding items:
-  - `append()` to add at the end
-  - `insert()` to add at a specific position
+  - `append()` for end insertion
+  - `insert()` for targeted positions
 - Removing items:
-  - `remove()` to delete by value
-  - `pop()` to delete last element or by index
-  - `del` to delete by index or the entire list
+  - `remove()` for value-based deletion
+  - `pop()` with and without an index
+  - `del` for removing items and deleting the entire list (illustrated by an intentional `NameError` after `del fruits`)
 - Clearing and copying:
-  - `clear()` to empty a list
-  - `copy()` and slicing (`[:]`) to clone lists
+  - `clear()`, `copy()`, and slicing (`[:]`)
 - Combining lists:
-  - Using `+` to concatenate lists
-  - Using `extend()` to add all elements from another list
-- Counting, indexing, ordering:
-  - `count()` to count occurrences
-  - `index()` to find the position of an element
-  - `reverse()` to reverse order
-  - `sort()` to sort ascending/descending
+  - Concatenation with `+`
+  - Extending lists with `extend()`
+- Counting, indexing, and ordering:
+  - `count()` and `index()`
+  - `reverse()` and `sort()` (ascending and descending)
 
 ## Script Overview (`lists.py`)
 
-The script walks through:
+The script is broken into clearly labelled sections:
 
-- Realistic examples with fruits, vegetables, and numbers
-- Step-by-step prints showing the effect of each operation
-- Examples of joining multiple lists into a single sequence
-- Demonstrations of counting, indexing, reversing, and sorting
-
-This provides a practical overview of how lists behave and how they are commonly manipulated in Python.
+- Starts by measuring the length of an empty list, then prints several themed list variables.
+- Demonstrates indexing, negative indexing, and different slice ranges on the `fruits` list.
+- Shows how reassignment works for first, middle, and last elements.
+- Performs membership checks before moving on to `append()` and `insert()` examples.
+- Covers the three main deletion patterns (`remove`, `pop`, `del`) and highlights the runtime error raised when trying to print a deleted variable.
+- Resets the lists to demonstrate `clear()`, `copy()`, concatenation, `extend()`, counting, indexing, reversing, and sorting.
 
 Experiment by:
 
-- Adding new items and re-running the script
-- Changing indices and slice ranges
-- Trying other list methods like `min()`, `max()`, or list comprehensions in your own extensions
+- Substituting your own list items (e.g., hobbies, cities, numbers).
+- Commenting out the `del fruits` block if you want the script to run to completion without an error.
+- Adding practice with other list helpers such as `min()`, `max()`, or list comprehensions.

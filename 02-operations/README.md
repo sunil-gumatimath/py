@@ -1,50 +1,39 @@
 # 02 - Python Operations
 
-This module demonstrates fundamental operations in Python using the `operations.py` script. It is designed to help beginners understand how Python evaluates arithmetic expressions, comparisons, logical statements, and common numeric use cases.
+This module demonstrates fundamental operations in Python using the `operations.py` script. It is designed to help beginners understand how Python evaluates arithmetic expressions, comparisons, logical statements, and common numeric use cases by printing the outcome of every expression.
 
 ## Concepts Covered
 
 - Arithmetic operations:
   - Addition (`+`), subtraction (`-`), multiplication (`*`)
-  - Division (`/`)
-  - Floor division (`//`)
-  - Modulus (`%`)
+  - True division (`/`) and floor division (`//`)
+  - Modulus (`%`) for remainders
   - Exponentiation (`**`)
-- Working with:
-  - Integers
-  - Floats
-  - Complex numbers
-- Variable assignment and reuse in expressions
-- Comparison operators:
-  - `==`, `!=`, `>`, `<`, `>=`, `<=`
-- Logical operators:
-  - `and`, `or`, `not`
-- Identity and membership:
-  - `is`, `is not`
-  - `in`
-- Practical examples:
-  - Area of a circle
-  - Area of a rectangle
-  - Weight calculation using mass and gravity
-- Boolean expressions and evaluation patterns
+- Numeric literals:
+  - Integers, floats, and complex numbers
+- Variable assignment and reuse to accumulate multiple results (`total`, `diff`, `product`, etc.)
+- Practical calculations:
+  - Area of a circle (`pi * r**2`)
+  - Area of a rectangle (`length * width`)
+  - Weight computation (`mass * gravity`)
+- Comparison operators (`==`, `!=`, `>`, `<`, `>=`, `<=`) with string-length examples
+- Boolean logic (`and`, `or`, `not`) including double negation
+- Identity and membership demonstrations (`is`, `is not`, `in`)
 
 ## Script Overview (`operations.py`)
 
-The script walks through:
+The script prints sequences of worked examples in the following order:
 
-- Direct arithmetic printouts
-- Storing results in variables (`total`, `diff`, `product`, `division`, etc.)
-- Printing labeled outputs for clarity
-- Several comparison and logical checks to illustrate boolean results
-- Examples using:
-  - `is` and `is not`
-  - `in` keyword to check membership in strings
-  - Combined logical expressions (`and` / `or` / `not`)
-
-This provides a clear, step-by-step view of how Python evaluates expressions.
+- Literal arithmetic expressions, each immediately echoed to the console.
+- Reuse of variables `a` and `b` to compute and label the results of all core arithmetic operators.
+- A second block that repeats the pattern with `num_one` and `num_two`.
+- Mini word problems: computing the area of a circle and rectangle, plus an object’s weight.
+- A collection of comparison expressions, including those based on string lengths.
+- Boolean comparisons, identity tests (`1 is 1`, `4 is 2 ** 2`), and membership checks within strings.
+- Logical combinations illustrating how `and`, `or`, and `not` behave with different comparisons.
 
 Experiment by:
 
-- Changing input values
-- Adding new arithmetic or boolean expressions
-- Observing how different operators behave
+- Changing the numeric inputs to observe new outputs.
+- Adding your own real-world formulas (perimeter, BMI, etc.).
+- Extending the logical section with additional combinations or custom predicates.

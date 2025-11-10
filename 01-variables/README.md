@@ -1,39 +1,34 @@
 # 01 - Python Variables
 
-This module introduces Python variables and core data types using the `variables.py` script. It is aimed at beginners who want to understand how to store, combine, and inspect data in Python.
+This module introduces Python variables and core data types using the `variables.py` script. It is aimed at beginners who want to understand how to store, combine, and inspect data in Python by printing immediate feedback to the console.
 
 ## Concepts Covered
 
-- Declaring and using variables
-- Working with common data types:
-  - Strings
-  - Integers
-  - Booleans
-  - Lists
-  - Dictionaries
+- Declaring and reading variables for personal information (names, location, age, marital status)
+- Working with core data types:
+  - `str` (first name, last name, country, city)
+  - `int` (`age`)
+  - `bool` (`is_married`)
+  - `list` of skills
+  - `dict` representing a person
 - Basic operations:
-  - String concatenation
+  - Concatenating two strings into a full name
   - Measuring string length with `len()`
-  - Accessing list elements
-  - Printing structured information
+  - Slicing a list using full slicing syntax (`skills[::]`)
+  - Printing dictionary contents
 
 ## Script Overview (`variables.py`)
 
-Key examples included:
+The script walks through the following sequence:
 
-- Personal information variables (strings, integers, booleans)
-- A list of skills
-- A dictionary of person details
-
-The script prints:
-
-- Individual values
-- Length of first and last names
-- Full name and its length
-- Skills and dictionary content
+- Declares `first_name`, `last_name`, `country`, `city`, `age`, and `is_married`.
+- Creates a `skills` list and `person_info` dictionary.
+- Prints each scalar value and shows its length where appropriate (first name, last name, full name).
+- Demonstrates concatenating strings and slicing a list copy (`skills[::]`).
+- Displays the entire dictionary to highlight key/value storage.
 
 Experiment by:
 
-- Changing variable values
-- Adding new variables and print statements
-- Observing how Python handles different data types
+- Changing the variable values to see the printed output change.
+- Adding additional keys to `person_info` or extra items in `skills`.
+- Introducing your own calculated fields (e.g., `birth_year`) and printing them.*** End Patch
