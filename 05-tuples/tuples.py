@@ -41,3 +41,14 @@ second_fruit = fruits[-3]
 last_fruit = fruits[-1]
 
 print(first_fruit,second_fruit,last_fruit)
+
+# Slicing tuples
+
+# Syntax
+tpl  = ('item1','item2','item3','item4')
+all_items = tpl[0:4]
+all_items = tpl[0:]
+middle_two_items = tpl[1:3]
+
+print(all_items)
+print(middle_two_items)
