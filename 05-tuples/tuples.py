@@ -70,3 +70,24 @@ fruits = ('banana', 'orange', 'mango', 'lemon')
 all_fruits = fruits[-4:]    # all items
 orange_mango = fruits[-3:-1]  # doesn't include item at index 3
 orange_to_the_rest = fruits[-3:]
+
+# Chaining tuples to list
+# Syntax
+tpl = ('item1', 'item2', 'item3','item4')
+lst = list(tpl)
+
+fruits = ('banana', 'orange', 'mango', 'lemon')
+fruits = list(fruits)
+fruits[0] = 'apple'
+print(fruits)     # ['apple', 'orange', 'mango', 'lemon']
+fruits = tuple(fruits)
+print(fruits)     # ('apple', 'orange', 'mango', 'lemon')
+
+# Syntax
+tpl = ('item1', 'item2', 'item3','item4')
+'item2' in tpl # True
+
+fruits = ('banana', 'orange', 'mango', 'lemon')
+print('orange' in fruits) # True
+print('apple' in fruits) # False
+fruits[0] = 'apple' # TypeError: 'tuple' object does not support item assignment
