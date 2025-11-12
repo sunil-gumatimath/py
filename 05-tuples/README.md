@@ -17,12 +17,12 @@ This module introduces Python tuples, which are ordered, immutable collections o
 The script demonstrates tuple operations through the following sections:
 
 1. **Creating Tuples**: Shows how to create empty and populated tuples, and get their length.
-2. **Accessing Tuple Elements**: Demonstrates indexing from both ends of the tuple.
-3. **Slicing Tuples**: Illustrates various slicing techniques to extract portions of tuples.
+2. **Accessing Tuple Elements**: Demonstrates indexing from both ends of the tuple, including tuple methods like `count()` and `index()`.
+3. **Slicing Tuples**: Illustrates various slicing techniques to extract portions of tuples, using both positive and negative indices.
 4. **Converting Tuples to Lists**: Shows how to modify tuple contents by converting to a list, making changes, and converting back.
-5. **Checking Items in Tuples**: Uses membership testing and highlights the immutability of tuples.
-6. **Joining Tuples**: Combines multiple tuples into one.
-7. **Deleting Tuples**: Removes tuple objects entirely.
+5. **Checking Items in Tuples**: Uses membership testing with the `in` operator and demonstrates tuple immutability by attempting (and catching) a modification error.
+6. **Joining Tuples**: Combines multiple tuples into one using the `+` operator.
+7. **Deleting Tuples**: Removes tuple objects entirely using `del`.
 
 Experiment by:
 
