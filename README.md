@@ -29,6 +29,10 @@ This repository is a collection of small Python scripts organized by topic. Each
   - Updates items by index, checks membership, appends and inserts new elements.
   - Removes data with `remove`, `pop`, and `del` (including an intentional `NameError` when the deleted list is accessed).
   - Covers `clear`, `copy`, list concatenation and `extend`, followed by counting, indexing, reversing, and sorting examples.
+- `05-tuples/`
+  - Introduces tuples as ordered, immutable collections.
+  - Demonstrates creating tuples, accessing elements by index, slicing, converting to lists for modification.
+  - Covers membership checks, joining tuples, and deleting tuples entirely.
 
 Each directory contains a dedicated `README.md` describing its script in more detail.
 
