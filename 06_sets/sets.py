@@ -28,3 +28,13 @@ print("Does set st conatin item 3 : ", 'item3' in st) # Does set st contain item
 
 fruits = {'banana', 'orange', 'mango', 'lemon'}
 print('mango' in fruits)        # True
+
+# Once a set is created we cannot change any items and we can also add additional items.
+# Add one item using add()
+st = {'item1', 'item2', 'item3', 'item4'}
+st.add('item5')
+print(st)
+
+fruits = {'banana', 'orange', 'mango', 'lemon'}
+fruits.add('apple')
+print(fruits)
