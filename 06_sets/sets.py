@@ -1,4 +1,8 @@
 # We use the set() built-in function.
+from turtle import reset
+from unittest import result
+
+
 st = set()
 print(st)
 print(type(st))
@@ -106,3 +110,20 @@ vegetables = {'tomato', 'potato', 'cabbage','onion', 'carrot'}
 fruits.update(vegetables)
 print(fruits)
 
+# Finding Intersection Items
+# Intersection returns a set of items which are in both the sets. See the example
+# syntax
+st1 = {'item1', 'item2', 'item3', 'item4'}
+st2 = {'item3', 'item2'}
+st3=st1.intersection(st2) # {'item3', 'item2'}
+print(st3)
+
+whole_numbers = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
+even_numbers = {0, 2, 4, 6, 8, 10}
+result = whole_numbers.intersection(even_numbers) # {0, 2, 4, 6, 8, 10}
+print(result)
+
+python = {'p', 'y', 't', 'h', 'o','n'}
+dragon = {'d', 'r', 'a', 'g', 'o','n'}
+result = python.intersection(dragon)     # {'o', 'n'}
+print(result)
