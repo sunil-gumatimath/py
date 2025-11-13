@@ -38,3 +38,44 @@ print(st)
 fruits = {'banana', 'orange', 'mango', 'lemon'}
 fruits.add('apple')
 print(fruits)
+
+# Add multiple items using update() The update() allows to add multiple items to a set. The update() takes a list argument.
+st = {'item1','item2','item3','item4'}
+st.update(['item5','item6','item7'])
+
+print(st)
+
+fruits = {'apple','banana','orange','mango'}
+vegetables = {'tomato','potato','cabbage','onion','carrot'}
+fruits.update(vegetables)
+print(fruits)
+
+# Removing Items from a Set
+st = {'item1','item2','item3','item4','item5'}
+st.remove('item1')
+print(st)
+
+fruits = {'apple','banana','mango','orange'}
+rm_fruit = fruits.pop()
+# print('Removed Item :',rm_fruit)
+print(fruits)
+
+# Clearing Items in a Set
+# If we want to clear or empty the set we use clear method.
+st = {'item1','item2','item3','item4'}
+print(st)
+st.clear()
+print(st)
+
+# Deleting a Set
+st = {'item1','item2','item3','item4'}
+del st
+
+fruits = {'banana', 'orange', 'mango', 'lemon'}
+del fruits
+
+# Converting 
+lst = ['item1','item2','item3','item4','item1','item2']
+st = set(lst)
+
+print(st)
