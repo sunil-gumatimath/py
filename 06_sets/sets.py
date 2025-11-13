@@ -1,8 +1,4 @@
 # We use the set() built-in function.
-from turtle import reset
-from unittest import result
-
-
 st = set()
 print(st)
 print(type(st))
@@ -126,4 +122,44 @@ print(result)
 python = {'p', 'y', 't', 'h', 'o','n'}
 dragon = {'d', 'r', 'a', 'g', 'o','n'}
 result = python.intersection(dragon)     # {'o', 'n'}
+print(result)
+
+# Checking Subset and Super Set
+# A set can be a subset or super set of other sets:
+# Subset: issubset()
+# Super set: issuperset
+
+st1 = {'item1','item2','item3','item4'}
+st2 = {'item2','item3'}
+result = st2.issubset(st1)
+print(result)
+result = st1.issuperset(st2)
+print(result)
+
+whole_numbers = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
+even_numbers = {0, 2, 4, 6, 8, 10}
+whole_numbers.issubset(even_numbers) # False, because it is a super set
+whole_numbers.issuperset(even_numbers) # True
+
+python = {'p', 'y', 't', 'h', 'o','n'}
+dragon = {'d', 'r', 'a', 'g', 'o','n'}
+python.issubset(dragon)     # False
+
+# Checking the Difference Between Two Sets
+# It returns the difference between two sets.
+# syntax
+st1 = {'item1', 'item2', 'item3', 'item4'}
+st2 = {'item2', 'item3'}
+st2.difference(st1) # set()
+st1.difference(st2) # {'item1', 'item4'} => st1\st2
+
+whole_numbers = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
+even_numbers = {0, 2, 4, 6, 8, 10}
+whole_numbers.difference(even_numbers) # {1, 3, 5, 7, 9}
+
+python = {'p', 'y', 't', 'o','n'}
+dragon = {'d', 'r', 'a', 'g', 'o','n'}
+result = python.difference(dragon)     # {'p', 'y', 't'}  - the result is unordered (characteristic of sets)
+print(result)
+result = dragon.difference(python)     # {'d', 'r', 'a', 'g'}
 print(result)
