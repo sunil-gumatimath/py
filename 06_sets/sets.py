@@ -77,5 +77,32 @@ del fruits
 # Converting 
 lst = ['item1','item2','item3','item4','item1','item2']
 st = set(lst)
-
 print(st)
+
+fruits = {'apple','banana','orange','mango','banana','lemon','apple'}
+st = set(fruits)
+print(st)
+
+# Joining sets
+# We can join two sets using the union() or update() method.
+st1 = {'item1','item2','item4','item6'}
+st2 = {'item5','item6','item3','item2'}
+st3 = st1.union(st2)
+print(st3)
+
+fruits = {'banana','apple','orange','lemon'}
+vegetables = {'tomato', 'potato', 'cabbage','onion', 'carrot'}
+print(fruits.union(vegetables))
+
+# Update This method inserts a set into a given set
+# syntax
+st1 = {'item1', 'item2', 'item3', 'item4'}
+st2 = {'item5', 'item6', 'item7', 'item8'}
+st1.update(st2) # st2 contents are added to st1
+print(st1)
+
+fruits = {'banana','apple','orange','lemon'}
+vegetables = {'tomato', 'potato', 'cabbage','onion', 'carrot'}
+fruits.update(vegetables)
+print(fruits)
+
