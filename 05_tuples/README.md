@@ -29,3 +29,13 @@ Experiment by:
 - Modifying tuple contents and observing the immutability errors.
 - Creating tuples with different data types.
 - Practicing various slicing operations on existing tuples.
+
+## Navigation
+
+[← Previous: Lists](../04_lists/README.md) | [Back to Main README](../README.md) | [Next: Sets →](../06_sets/README.md)
+
+## Related Modules
+
+- **Previous**: [04 - Lists](../04_lists/README.md) - Work with ordered collections
+- **Next**: [06 - Sets](../06_sets/README.md) - Explore unique collections and set theory
+- **See also**: [Table of Contents](../index.md) for all modules
