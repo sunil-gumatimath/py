@@ -44,3 +44,13 @@ Experiment by:
 - Changing the base strings or introducing new ones to see how the methods react.
 - Trying additional methods such as `upper()` or `lower()`.
 - Updating slice ranges or step values to understand how slicing selects characters.
+
+## Navigation
+
+[← Previous: Operations](../02_operations/README.md) | [Back to Main README](../README.md) | [Next: Lists →](../04_lists/README.md)
+
+## Related Modules
+
+- **Previous**: [02 - Operations](../02_operations/README.md) - Learn how to manipulate and compare data
+- **Next**: [04 - Lists](../04_lists/README.md) - Work with ordered collections
+- **See also**: [Table of Contents](../index.md) for all modules
