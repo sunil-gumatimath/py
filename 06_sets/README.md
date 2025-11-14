@@ -41,3 +41,13 @@ Experiment by:
 - Creating sets from various data sources like strings, lists, and tuples.
 - Exploring subset and superset relationships between different sets.
 - Using difference operations to find unique elements in sets.
+
+## Navigation
+
+[← Previous: Tuples](../05_tuples/README.md) | [Back to Main README](../README.md)
+
+## Related Modules
+
+- **Previous**: [05 - Tuples](../05_tuples/README.md) - Understand immutable sequences
+- **Congratulations!** You've completed all the core Python modules
+- **See also**: [Table of Contents](../index.md) for all modules
