@@ -37,3 +37,13 @@ Experiment by:
 - Changing the numeric inputs to observe new outputs.
 - Adding your own real-world formulas (perimeter, BMI, etc.).
 - Extending the logical section with additional combinations or custom predicates.
+
+## Navigation
+
+[← Previous: Variables](../01_variables/README.md) | [Back to Main README](../README.md) | [Next: Strings →](../03_strings/README.md)
+
+## Related Modules
+
+- **Previous**: [01 - Variables](../01_variables/README.md) - Understand basic data storage
+- **Next**: [03 - Strings](../03_strings/README.md) - Master text processing
+- **See also**: [Table of Contents](../index.md) for all modules
