@@ -2,6 +2,8 @@
 
 This repository is a collection of small Python scripts organized by topic. Each module focuses on a fundamental Python concept and mirrors the examples found in the accompanying source file.
 
+**For a more detailed table of contents with navigation links, see [index.md](./index.md).**
+
 ## Prerequisites
 
 - Python 3.x installed on your system
@@ -33,6 +35,12 @@ This repository is a collection of small Python scripts organized by topic. Each
   - Introduces tuples as ordered, immutable collections.
   - Demonstrates creating tuples, accessing elements by index, slicing, converting to lists for modification.
   - Covers membership checks, joining tuples, and deleting tuples entirely.
+- `06-sets/`
+  - Explores sets as unordered collections of unique elements.
+  - Demonstrates set creation, adding and removing items.
+  - Covers set operations: union, intersection, difference, symmetric difference.
+  - Shows subset, superset, and disjoint set relationships.
+  - Highlights set methods like `add`, `update`, `remove`, `pop`, `clear`, and comparison operations.
 
 Each directory contains a dedicated `README.md` describing its script in more detail.
 
@@ -41,6 +49,17 @@ Each directory contains a dedicated `README.md` describing its script in more de
 - Read the module's `README.md` to understand what each script demonstrates.
 - Run the script to see outputs.
 - Modify values, add new examples, and re-run to reinforce understanding.
+
+## Learning Path
+
+Follow this recommended order for beginners:
+
+1. **Variables** → Start here to understand basic data storage
+2. **Operations** → Learn how to manipulate and compare data
+3. **Strings** → Master text processing
+4. **Lists** → Work with ordered collections
+5. **Tuples** → Understand immutable sequences
+6. **Sets** → Explore unique collections and set theory
 
 ## Audience
 
