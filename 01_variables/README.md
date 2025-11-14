@@ -31,4 +31,13 @@ Experiment by:
 
 - Changing the variable values to see the printed output change.
 - Adding additional keys to `person_info` or extra items in `skills`.
-- Introducing your own calculated fields (e.g., `birth_year`) and printing them.*** End Patch
+- Introducing your own calculated fields (e.g., `birth_year`) and printing them.
+
+## Navigation
+
+[← Back to Main README](../README.md) | [Next: Operations →](../02_operations/README.md)
+
+## Related Modules
+
+- **Next**: [02 - Operations](../02_operations/README.md) - Learn how to manipulate and compare data
+- **See also**: [Table of Contents](../index.md) for all modules
