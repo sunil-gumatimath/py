@@ -49,3 +49,13 @@ Experiment by:
 - Substituting your own list items (e.g., hobbies, cities, numbers).
 - Commenting out the `del fruits` block if you want the script to run to completion without an error.
 - Adding practice with other list helpers such as `min()`, `max()`, or list comprehensions.
+
+## Navigation
+
+[← Previous: Strings](../03_strings/README.md) | [Back to Main README](../README.md) | [Next: Tuples →](../05_tuples/README.md)
+
+## Related Modules
+
+- **Previous**: [03 - Strings](../03_strings/README.md) - Master text processing
+- **Next**: [05 - Tuples](../05_tuples/README.md) - Understand immutable sequences
+- **See also**: [Table of Contents](../index.md) for all modules
