@@ -44,6 +44,18 @@ The script is broken into clearly labelled sections:
 - Covers the three main deletion patterns (`remove`, `pop`, `del`) and highlights the runtime error raised when trying to print a deleted variable.
 - Resets the lists to demonstrate `clear()`, `copy()`, concatenation, `extend()`, counting, indexing, reversing, and sorting.
 
+## Practice Exercises
+
+Practice your skills with the list exercises in [Assignment/lists.py](../Assignment/lists.py):
+- Creating and initializing lists (empty lists, populated lists, mixed data types)
+- List indexing, slicing, and length operations
+- Adding and inserting elements (append, insert)
+- Modifying and removing elements (remove, pop, del)
+- List methods (sort, reverse, extend, copy)
+- List concatenation and joining
+- Searching and counting in lists
+- Working with multi-dimensional lists and complex data structures
+
 Experiment by:
 
 - Substituting your own list items (e.g., hobbies, cities, numbers).

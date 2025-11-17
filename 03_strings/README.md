@@ -39,6 +39,17 @@ The script demonstrates each concept with immediate print statements:
 - Prints formatted sentences containing escape sequences.
 - Walks through a catalog of string methods, displaying the return value of each call (e.g., `challenge.count('y')`, joining a list with `#, `).
 
+## Practice Exercises
+
+Practice your skills with the string exercises in [Assignment/strings.py](../Assignment/strings.py):
+- String concatenation and formatting
+- Case conversion (upper, lower, capitalize, title, swapcase)
+- String searching and finding (index, find, rfind, startswith, endswith)
+- String slicing and character extraction
+- String replacement and splitting
+- Escape sequences and formatting
+- Acronym creation and string manipulation challenges
+
 Experiment by:
 
 - Changing the base strings or introducing new ones to see how the methods react.

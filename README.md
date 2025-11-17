@@ -44,11 +44,20 @@ This repository is a collection of small Python scripts organized by topic. Each
 
 Each directory contains a dedicated `README.md` describing its script in more detail.
 
+- `Assignment/`
+  - Contains practice exercises for each module to reinforce learning concepts
+  - Includes assignments for operations, strings, lists, tuples, and sets
+  - Each assignment file has commented exercises that demonstrate practical application of the concepts
+
+Each module directory contains a dedicated `README.md` describing its script in more detail.
+
 ## Recommended Usage
 
 - Read the module's `README.md` to understand what each script demonstrates.
 - Run the script to see outputs.
+- Practice with the corresponding assignment file in the `Assignment/` directory.
 - Modify values, add new examples, and re-run to reinforce understanding.
+- Complete the exercises in the assignment files to apply what you've learned.
 
 ## Learning Path
 

@@ -24,6 +24,17 @@ The script demonstrates tuple operations through the following sections:
 6. **Joining Tuples**: Combines multiple tuples into one using the `+` operator.
 7. **Deleting Tuples**: Removes tuple objects entirely using `del`.
 
+## Practice Exercises
+
+Practice your skills with the tuple exercises in [Assignment/tuples.py](../Assignment/tuples.py):
+- Creating empty and populated tuples
+- Joining multiple tuples (brothers, sisters, family members)
+- Converting between tuples and lists for modification
+- Slicing tuples to extract middle or specific items
+- Checking membership in tuples
+- Unpacking tuples into multiple variables
+- Working with different categories of tuples (fruits, vegetables, etc.)
+
 Experiment by:
 
 - Modifying tuple contents and observing the immutability errors.

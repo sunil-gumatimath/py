@@ -27,10 +27,21 @@ The script prints sequences of worked examples in the following order:
 - Literal arithmetic expressions, each immediately echoed to the console.
 - Reuse of variables `a` and `b` to compute and label the results of all core arithmetic operators.
 - A second block that repeats the pattern with `num_one` and `num_two`.
-- Mini word problems: computing the area of a circle and rectangle, plus an object’s weight.
+- Mini word problems: computing the area of a circle and rectangle, plus an object's weight.
 - A collection of comparison expressions, including those based on string lengths.
 - Boolean comparisons, identity tests (`1 is 1`, `4 is 2 ** 2`), and membership checks within strings.
 - Logical combinations illustrating how `and`, `or`, and `not` behave with different comparisons.
+
+## Practice Exercises
+
+Practice your skills with the operations exercises in [Assignment/operations.py](../Assignment/operations.py):
+- Variable declarations (integers, floats, complex numbers)
+- User input and interactive calculations
+- Triangle area and perimeter calculations
+- Rectangle and circle geometry problems
+- Slope, distance, and coordinate calculations
+- String comparisons and operations
+- Pay calculator and time conversion exercises
 
 Experiment by:
 

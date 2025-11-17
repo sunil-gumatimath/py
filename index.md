@@ -4,6 +4,16 @@ Welcome to the Python Learning Repository! This index provides a quick overview 
 
 ## 📚 Table of Contents
 
+### [Assignments](./Assignment/)
+**Practice Exercises**
+- Complete sets of exercises for each module
+- Reinforce learning through hands-on practice
+- Includes worked examples and exercises for operations, strings, lists, tuples, and sets
+
+[📖 View Assignments](./Assignment/) | [💻 View Code](./Assignment/)
+
+---
+
 ### [01 - Variables](./01_variables/)
 **Introduction to Python Variables**
 - Declaring and using variables
@@ -102,4 +112,3 @@ Follow this recommended order for beginners:
 ---
 
 **Happy Learning! 🐍**
-

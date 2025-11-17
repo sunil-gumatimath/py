@@ -31,7 +31,18 @@ The script demonstrates set operations through the following sections:
 7. **Joining Sets**: Combines sets using `union()` to create new sets and `update()` to modify existing sets.
 8. **Set Intersection**: Finds common elements between sets using the `intersection()` method.
 9. **Subset and Superset**: Checks if one set is a subset or superset of another using `issubset()` and `issuperset()` methods.
-10. **Set Difference**: Finds elements that are in one set but not in another using the `difference()` method.
+10. **Set Differences**: Finds elements that are in one set but not in another using the `difference()` method.
+
+## Practice Exercises
+
+Practice your skills with the set exercises in [Assignment/sets.py](../Assignment/sets.py):
+- Creating and manipulating sets of IT companies and ages
+- Adding and removing elements from sets
+- Set operations (union, intersection, difference, symmetric difference)
+- Testing subset, superset, and disjoint relationships
+- Converting lists to sets to remove duplicates
+- Understanding the differences between data types (string, list, tuple, set)
+- Solving word uniqueness problems using sets
 
 Experiment by:
 
