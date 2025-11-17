@@ -5,10 +5,15 @@ Welcome to the Python Learning Repository! This index provides a quick overview 
 ## 📚 Table of Contents
 
 ### [Assignments](./Assignment/)
-**Practice Exercises**
+**Comprehensive Practice Exercises**
 - Complete sets of exercises for each module
 - Reinforce learning through hands-on practice
-- Includes worked examples and exercises for variables, operations, strings, lists, tuples, and sets
+- **variables_builtin_fun.py**: Variable declarations, type checking, arithmetic, circle calculations, user input
+- **operations.py**: 23 exercises - geometry, slope/distance, quadratic equations, type conversions, pay calculator
+- **strings.py**: String manipulation - concatenation, case conversion, searching, slicing, formatting
+- **lists.py**: IT companies, student ages, countries - comprehensive list operations
+- **tuples.py**: Tuple creation, joining, converting, slicing, membership checks
+- **sets.py**: Set operations, union/intersection/difference, unique word finding
 
 [📖 View Assignments](./Assignment/) | [💻 View Code](./Assignment/)
 
