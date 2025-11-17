@@ -42,13 +42,17 @@ The script demonstrates each concept with immediate print statements:
 ## Practice Exercises
 
 Practice your skills with the string exercises in [Assignment/strings.py](../Assignment/strings.py):
-- String concatenation and formatting
-- Case conversion (upper, lower, capitalize, title, swapcase)
-- String searching and finding (index, find, rfind, startswith, endswith)
+- String concatenation ('Thirty Days Of Python', 'Coding For All')
+- String case conversion methods (upper, lower, capitalize, title, swapcase)
+- String length calculations using len()
 - String slicing and character extraction
-- String replacement and splitting
-- Escape sequences and formatting
-- Acronym creation and string manipulation challenges
+- String searching methods (index, find, rfind, startswith, endswith)
+- String replacement and splitting operations
+- Escape sequences (newline `\n`, tab `\t`, backslash `\\`, quotes)
+- String formatting methods (format() with placeholders)
+- Acronym creation from phrases
+- String joining with custom separators
+- Character position finding and extraction
 
 Experiment by:
 
