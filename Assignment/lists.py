@@ -52,13 +52,13 @@ for i,company in enumerate(it_companies):
 joined_companies = '#; '.join(it_companies)
 
 # Check if a certain company exists in the it_companies list.
-print('OpenAi' in it_companies)
+print('OpenAi' in it_companies or 'OPENAI' in it_companies)
 
 # Sort the list using sort() method
 it_companies.sort()
 
 # Reverse the list in descending order using reverse() method
-it_companies.reverse();
+it_companies.reverse()
 
 # Slice out the first 3 companies from the list
 first_three_company = it_companies[:3]
@@ -119,11 +119,16 @@ print(max_age)
 # Add the min age and the max age again to the list
 ages.append(min_age)
 ages.append(max_age)
+ages.sort()
 print(ages)
 
 # Find the median age (one middle item or two middle items divided by two)
-middle_age = len(ages)//2
-print(ages[middle_age])
+middle_index = len(ages) // 2
+if len(ages) % 2 == 0:
+    median_age = (ages[middle_index - 1] + ages[middle_index]) / 2
+else:
+    median_age = ages[middle_index]
+print("Median age:", median_age)
 
 # Find the average age (sum of all items divided by their number )
 average = sum(ages) / len(ages)
@@ -132,7 +137,6 @@ average = sum(ages) / len(ages)
 age_range = max(ages) - min(ages)
 
 # Compare the value of (min - average) and (max - average), use abs() method
-ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
 diff_min = abs(min(ages) - average)
 diff_max = abs(max(ages) - average)
 print("Min deviation:", diff_min)
@@ -154,8 +158,8 @@ print("Second half:", second_half)
 
 
 # ['China', 'Russia', 'USA', 'Finland', 'Sweden', 'Norway', 'Denmark']. Unpack the first three countries and the rest as scandic countries.
-first_country,second_country,third_country,*rest = countries
-print(first_country)
-print(second_country)
-print(third_country)
-print(countries)
+first_country, second_country, third_country, *rest = countries
+print('first company :',first_country)
+print('second company :',second_country)
+print('third company :',third_country)
+print('rest :',rest)
