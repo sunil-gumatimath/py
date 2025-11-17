@@ -1,13 +1,21 @@
 # Exercises: Level 1
 # Declare an empty list
+empty_list = list()
 
 # Declare a list with more than 5 items
+items = ('item1','item2','item3','item4','item5')
 
 # Find the length of your list
+len_list = len(items)
 
 # Get the first item, the middle item and the last item of the list
+first_element = items[0]
+middle_item = items[len(items)//2]
+last_element = items[-1]
+print(first_element ,middle_item, last_element)
 
 # Declare a list called mixed_data_types, put your(name, age, height, marital status, address)
+mixed_data_types = ["Ted", 22, 5.4, "Single", "Bangalore, India"]
 
 # Declare a list variable named it_companies and assign initial values Facebook, Google, Microsoft, Apple, IBM, Oracle and Amazon.
 
