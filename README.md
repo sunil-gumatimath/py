@@ -45,9 +45,14 @@ This repository is a collection of small Python scripts organized by topic. Each
 Each directory contains a dedicated `README.md` describing its script in more detail.
 
 - `Assignment/`
-  - Contains practice exercises for each module to reinforce learning concepts
+  - Contains comprehensive practice exercises for each module to reinforce learning concepts
   - Includes assignments for variables, operations, strings, lists, tuples, and sets
-  - Each assignment file has commented exercises that demonstrate practical application of the concepts
+  - **variables_builtin_fun.py**: Variable declarations, type checking, arithmetic operations, circle calculations, user input
+  - **operations.py**: 23 exercises covering geometry calculations, slope/distance, quadratic equations, type conversions, pay calculator
+  - **strings.py**: String manipulation exercises including concatenation, case conversion, searching, slicing, formatting
+  - **lists.py**: Extensive list exercises with IT companies, student ages, countries, and multi-level list operations
+  - **tuples.py**: Tuple creation, joining, converting, slicing, and membership exercises
+  - **sets.py**: Set operations with IT companies, age sets, union/intersection/difference operations, unique word finding
 
 Each module directory contains a dedicated `README.md` describing its script in more detail.
 
