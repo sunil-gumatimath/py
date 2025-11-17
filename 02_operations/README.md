@@ -36,12 +36,20 @@ The script prints sequences of worked examples in the following order:
 
 Practice your skills with the operations exercises in [Assignment/operations.py](../Assignment/operations.py):
 - Variable declarations (integers, floats, complex numbers)
-- User input and interactive calculations
-- Triangle area and perimeter calculations
-- Rectangle and circle geometry problems
-- Slope, distance, and coordinate calculations
-- String comparisons and operations
-- Pay calculator and time conversion exercises
+- User input for triangle area and perimeter calculations
+- Rectangle area and perimeter with user input
+- Circle area and circumference calculations using pi = 3.14
+- Line equation calculations (slope and intercepts)
+- Slope and Euclidean distance between two points
+- Quadratic equation evaluation and root finding
+- String length comparisons ('python' vs 'dragon')
+- String membership checks using `and` operator
+- Type conversions (int, float, string)
+- Even number checking using modulus
+- Type comparison exercises
+- Weekly earning calculator (hours × rate per hour)
+- Seconds lived calculator (years to seconds conversion)
+- Number table generation (1-5 with squares and cubes)
 
 Experiment by:
 
