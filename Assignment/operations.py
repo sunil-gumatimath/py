@@ -1,116 +1,127 @@
-# Declare your age as integer variableage : int = 25
-# Declare your height as a float variable
+# 1. Declare your age as an integer variable
+age: int = 25
 
-height : float = 6.1
+# 2. Declare your height as a float variable
+height: float = 6.1
 
-# Declare a variable that store a complex number
-num = 1 + 5j
+# 3. Declare a variable that stores a complex number
+num_complex = 1 + 5j
 
-# Write a script that prompts the user to enter base and height of the triangle and calculate an area of this triangle (area = 0.5 x b x h).
-base : float = float(input('Enter the base : '))
-height : float = float(input('Enter the height : '))
-area : float = 0.5 * base * height
-print(f'Area of triangle : {area}')
+# 4. Triangle area (prompt)
+base: float = float(input('Enter base: '))
+tri_height: float = float(input('Enter height: '))
+triangle_area = 0.5 * base * tri_height
+print(f'The area of the triangle is {triangle_area}')
 
-# Write a script that prompts the user to enter side a, side b, and side c of the triangle. Calculate the perimeter of the triangle (perimeter = a + b + c).
-a = float(input('Enter side a : '))
-b = float(input('Enter side b : '))
-c = float(input('Enter side c : '))
+# 5. Triangle perimeter (prompt)
+a = float(input('Enter side a: '))
+b = float(input('Enter side b: '))
+c = float(input('Enter side c: '))
 perimeter = a + b + c
-print(f'perimeter of the triangle {perimeter}')
+print(f'The perimeter of the triangle is {perimeter}')
 
-# Get length and width of a rectangle using prompt. Calculate its area (area = length x width) and perimeter (perimeter = 2 x (length + width))
-length : float = input('Enter the length : ')
-width : float = input('Enter the width : ')
+# 6. Rectangle area & perimeter (prompt)
+length: float = float(input('Enter the length: '))
+width: float = float(input('Enter the width: '))
 rect_area = length * width
 rect_perimeter = 2 * (length + width)
-print(f'area of rectangle : {rect_area}')
-print(f'perimeter of rectangle : {rect_perimeter}')
+print(f'Area of rectangle: {rect_area}')
+print(f'Perimeter of rectangle: {rect_perimeter}')
 
-# Get radius of a circle using prompt. Calculate the area (area = pi x r x r) and circumference (c = 2 x pi x r) where pi = 3.14.
-pi : float = 3.14
-rad : float = input('enter the radius : ')
-area : float = pi * rad * rad
-print(f'area of circle : {area}')
-circumference : float = 2 * pi * rad
-print(f'circumference of circle : {circumference}')
+# 7. Circle area & circumference (prompt) using pi = 3.14
+pi = 3.14
+rad: float = float(input('Enter the radius: '))
+circle_area = pi * rad * rad
+circumference = 2 * pi * rad
+print(f'Area of circle: {circle_area}')
+print(f'Circumference of circle: {circumference}')
 
-# Calculate slope, x-intercept and y-intercept of y = 2x - 2
-slope: float = 2
-y_intercept: float = -2
+# 8. Line y = 2x - 2: slope and intercepts
+slope = 2.0
+y_intercept = -2.0
+x_intercept = -y_intercept / slope
+print(f'Slope: {slope}')
+print(f'Y-intercept: {y_intercept}')
+print(f'X-intercept: {x_intercept}')
 
-# x-intercept formula: -c / m
-x_intercept: float = -y_intercept / slope
+# 9. Slope and Euclidean distance between (2,2) and (6,10)
+x1, y1 = 2, 2
+x2, y2 = 6, 10
+slope_2 = (y2 - y1) / (x2 - x1)
+import math
+distance = math.hypot(x2 - x1, y2 - y1)
+print(f'Slope between (2,2) and (6,10): {slope_2}')
+print(f'Distance between points: {distance}')
 
-print(f"Slope: {slope}")
-print(f"Y-intercept: {y_intercept}")
-print(f"X-intercept: {x_intercept}")
+# 10. Compare slopes (task 8 and 9)
+if slope == slope_2:
+    print('Both slopes are equal.')
+else:
+    print('The slopes are different.')
 
-# Slope is (m = y2-y1/x2-x1). Find the slope and Euclidean distance between point (2, 2) and point (6,10)
-# Compare the slopes in tasks 8 and 9.
-# Calculate the value of y (y = x^2 + 6x + 9). Try to use different x values and figure out at what x value y is going to be 0.
+# 11. Quadratic y = x^2 + 6x + 9, test values and find root(s)
+def quad_y(x):
+    return x**2 + 6*x + 9
 
-# Find the length of 'python' and 'dragon' and make a falsy comparison statement.
-var1 : str = 'python'
-var2 : str = 'dragon'
-print(f'length of python {len(var1)}')
-print(f'length of dragon {len(var2)}')
-print(len(var1) == len(var2))
+for x in [-5, -3, -1, 0, 1]:
+    print(f'x={x}, y={quad_y(x)}')
 
-# Use and operator to check if 'on' is found in both 'python' and 'dragon'
-print('on' in 'python')
-print('on' in 'dragon')
+# 12. Length of 'python' and 'dragon' and falsy comparison
+var1 = 'python'
+var2 = 'dragon'
+print(f'Length of python: {len(var1)}')
+print(f'Length of dragon: {len(var2)}')
+print('Are lengths equal?', len(var1) == len(var2))  # False
 
-# I hope this course is not full of jargon. Use in operator to check if jargon is in the sentence.
-sentence : str = 'I hope this course is not full of jargon'
-print('jargon' in sentence)
+# 13. Use `and` operator to check if 'on' is found in both
+print("'on' in python?", 'on' in var1)
+print("'on' in dragon?", 'on' in var2)
+print("'on' in both?", ('on' in var1) and ('on' in var2))  # True
 
-# There is no 'on' in both dragon and python
-print('on' in 'python')
-print('on' in 'dragon')
+# 14. Check if 'jargon' is in sentence
+sentence = 'I hope this course is not full of jargon'
+print("'jargon' in sentence?", 'jargon' in sentence)  # True
 
-# Find the length of the text python and convert the value to float and convert it to string
-py : str = 'python'
-# int
-len_py : int = len(py)
-# float
-len_float : float = float(len_py)
-# String
-len_str : str = str(len_float)
-print(f'type : {type(len_str)} value {len_str}')
+# 15. The sentence "There is no 'on' in both dragon and python" is false.
+print("'on' present in python and dragon? ->", ('on' in var1) and ('on' in var2))  # True
 
-# Even numbers are divisible by 2 and the remainder is zero. How do you check if a number is even or not using python?
-num = 10   # example number
-even: bool = (num % 2 == 0)
-print(even)
+# 16. Convert length of 'python' to float then to string
+py = 'python'
+len_py = len(py)              # int 6
+len_float = float(len_py)     # float 6.0
+len_str = str(len_float)      # string '6.0'
+print(f'type: {type(len_str)} value: {len_str}')
 
-# Check if the floor division of 7 by 3 is equal to the int converted value of 2.7.
-result = (7//3) == int(2.7)
-print(result)
+# 17. Check evenness of a number
+num = 10  # example
+is_even = (num % 2 == 0)
+print(f'Is {num} even? {is_even}')
 
-# Check if type of '10' is equal to type of 10
-print(type('10') == type(10))
+# 18. Check if 7//3 == int(2.7)
+result = (7 // 3) == int(2.7)
+print('7//3 == int(2.7)?', result)  # True
 
-# Check if int('9.8') is equal to 10
-result = int(9.8) == int(10)
-print(result)
+# 19. Check if type('10') == type(10)
+print("type('10') == type(10)?", type('10') == type(10))  # False
 
-# Writ a script that prompts the user to enter hours and rate per hour. Calculate pay of the person?
-hours : int = int(input('Enter hours : '))
-rate_per_hour : int = int(input('Enter rate per hour : '))
-weekly_earning : int = hours * rate_per_hour
-print(f'your weekly earning : {weekly_earning}')
+# 20. Check if int('9.8') is equal to 10
+try:
+    v = int('9.8')  # will raise ValueError
+except ValueError:
+    v = int(float('9.8'))  # -> 9
+print("int(float('9.8')) == 10 ?", v == 10)  # False
 
-# Write a script that prompts the user to enter number of years. Calculate the number of seconds a person can live. Assume a person can live hundred years
-no_of_years : int = int(input('Enter number of years you have lived : '))
+# 21. Weekly earning from hours and rate per hour
+hours = float(input('Enter hours: '))
+rate_per_hour = float(input('Enter rate per hour: '))
+weekly_earning = hours * rate_per_hour
+print(f'Your weekly earning: {weekly_earning}')
+
+# 22. Seconds lived (given number of years)
+no_of_years = int(input('Enter number of years you have lived: '))
 seconds_lived = no_of_years * 365 * 24 * 3600
 print(f'You have lived approximately {seconds_lived} seconds.')
 
-# Write a Python script that displays the following table
-# 1 1 1 1 1
-# 2 1 2 4 8
-# 3 1 3 9 27
-# 4 1 4 16 64
-# 5 1 5 25 125
-for i in range(1,6):
-    print(i,1,i,i**2,i**3)
+# 23. Print the requested table
+for i in range(1, 6):
+    print(i, 1, i, i**2, i**3)
