@@ -27,13 +27,19 @@ The script demonstrates tuple operations through the following sections:
 ## Practice Exercises
 
 Practice your skills with the tuple exercises in [Assignment/tuples.py](../Assignment/tuples.py):
-- Creating empty and populated tuples
-- Joining multiple tuples (brothers, sisters, family members)
-- Converting between tuples and lists for modification
-- Slicing tuples to extract middle or specific items
-- Checking membership in tuples
-- Unpacking tuples into multiple variables
-- Working with different categories of tuples (fruits, vegetables, etc.)
+- Creating empty tuples
+- Creating tuples with siblings (brothers and sisters)
+- Joining brothers and sisters tuples into siblings
+- Counting siblings
+- Adding parents to create family_members tuple
+- Unpacking siblings and parents from family_members
+- Creating separate tuples for fruits, vegetables, and animal products
+- Joining multiple tuples into food_stuff_tp
+- Converting tuples to lists for modification
+- Slicing middle items from tuples/lists
+- Slicing first three and last three items
+- Deleting tuples completely
+- Checking membership (e.g., 'Estonia' and 'Iceland' in nordic countries)
 
 Experiment by:
 
