@@ -36,13 +36,19 @@ The script demonstrates set operations through the following sections:
 ## Practice Exercises
 
 Practice your skills with the set exercises in [Assignment/sets.py](../Assignment/sets.py):
-- Creating and manipulating sets of IT companies and ages
-- Adding and removing elements from sets
-- Set operations (union, intersection, difference, symmetric difference)
-- Testing subset, superset, and disjoint relationships
-- Converting lists to sets to remove duplicates
-- Understanding the differences between data types (string, list, tuple, set)
-- Solving word uniqueness problems using sets
+- Creating and manipulating IT companies set (Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon)
+- Finding set length
+- Adding single items with add() and multiple items with update()
+- Removing items using pop() method
+- Understanding difference between remove() and discard() methods
+- Set union operations (joining sets A and B)
+- Set intersection operations
+- Testing subset relationships (issubset)
+- Testing disjoint set relationships (isdisjoint)
+- Symmetric difference operations
+- Converting age lists to sets and comparing lengths
+- Understanding differences between string, list, tuple, and set data types
+- Finding unique words in sentences using split() and set operations
 
 Experiment by:
 
