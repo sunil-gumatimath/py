@@ -46,7 +46,7 @@ Each directory contains a dedicated `README.md` describing its script in more de
 
 - `Assignment/`
   - Contains practice exercises for each module to reinforce learning concepts
-  - Includes assignments for operations, strings, lists, tuples, and sets
+  - Includes assignments for variables, operations, strings, lists, tuples, and sets
   - Each assignment file has commented exercises that demonstrate practical application of the concepts
 
 Each module directory contains a dedicated `README.md` describing its script in more detail.

@@ -8,7 +8,7 @@ Welcome to the Python Learning Repository! This index provides a quick overview 
 **Practice Exercises**
 - Complete sets of exercises for each module
 - Reinforce learning through hands-on practice
-- Includes worked examples and exercises for operations, strings, lists, tuples, and sets
+- Includes worked examples and exercises for variables, operations, strings, lists, tuples, and sets
 
 [📖 View Assignments](./Assignment/) | [💻 View Code](./Assignment/)
 

@@ -33,6 +33,19 @@ Experiment by:
 - Adding additional keys to `person_info` or extra items in `skills`.
 - Introducing your own calculated fields (e.g., `birth_year`) and printing them.
 
+## Practice Exercises
+
+Practice your skills with the variable exercises in [Assignment/variables_builtin_fun.py](../Assignment/variables_builtin_fun.py):
+- Multiple variable declarations (names, age, country, city)
+- Boolean variables and value assignments
+- Multiple variable declarations on one line
+- Type checking with built-in functions
+- String length calculations and comparisons
+- Basic arithmetic operations
+- Circle area and circumference calculations
+- User input for personal information
+- Python keywords exploration
+
 ## Navigation
 
 [← Back to Main README](../README.md) | [Next: Operations →](../02_operations/README.md)
