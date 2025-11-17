@@ -1,9 +1,10 @@
 # Exercises: Level 1
 # Declare an empty list
+
 empty_list = list()
 
 # Declare a list with more than 5 items
-items = ('item1','item2','item3','item4','item5')
+items = ['item1','item2','item3','item4','item5']
 
 # Find the length of your list
 len_list = len(items)
@@ -18,14 +19,23 @@ print(first_element ,middle_item, last_element)
 mixed_data_types = ["Ted", 22, 5.4, "Single", "Bangalore, India"]
 
 # Declare a list variable named it_companies and assign initial values Facebook, Google, Microsoft, Apple, IBM, Oracle and Amazon.
+it_companies = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle','Amazon']
 
 # Print the list using print()
+print(it_companies)
 
 # Print the number of companies in the list
+print(len(it_companies))
+
 
 # Print the first, middle and last company
+first_company = it_companies[0]
+middle_company = it_companies[len(it_companies)//2]
+last_company = it_companies[-1]
+print(first_company,middle_company,last_company)
 
 # Print the list after modifying one of the companies
+
 
 # Add an IT company to it_companies
 
