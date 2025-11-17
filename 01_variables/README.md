@@ -36,15 +36,16 @@ Experiment by:
 ## Practice Exercises
 
 Practice your skills with the variable exercises in [Assignment/variables_builtin_fun.py](../Assignment/variables_builtin_fun.py):
-- Multiple variable declarations (names, age, country, city)
-- Boolean variables and value assignments
+- Declaring first name, last name, and full name variables
+- Declaring country, city, age, and year variables
+- Boolean variable declarations (is_married, is_true, is_light_on)
 - Multiple variable declarations on one line
-- Type checking with built-in functions
-- String length calculations and comparisons
-- Basic arithmetic operations
-- Circle area and circumference calculations
-- User input for personal information
-- Python keywords exploration
+- Type checking using type() built-in function
+- String length calculations using len() and comparisons
+- Basic arithmetic operations (addition, subtraction, multiplication, division, modulus, exponentiation, floor division)
+- Circle area and circumference calculations (with fixed radius and user input)
+- User input for personal information (first name, last name, country, age)
+- Python keywords exploration using help('keywords')
 
 ## Navigation
 
