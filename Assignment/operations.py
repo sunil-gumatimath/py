@@ -7,10 +7,10 @@ height : float = 6.1
 num = 1 + 5j
 
 # Write a script that prompts the user to enter base and height of the triangle and calculate an area of this triangle (area = 0.5 x b x h).
-base : float = input('Enter the base : ')
-height : float= input('Enter the height : ')
+base : float = float(input('Enter the base : '))
+height : float = float(input('Enter the height : '))
 area : float = 0.5 * base * height
-print(f'Result {area}')
+print(f'Area of triangle : {area}')
 
 # Write a script that prompts the user to enter side a, side b, and side c of the triangle. Calculate the perimeter of the triangle (perimeter = a + b + c).
 a = float(input('Enter side a : '))
@@ -22,8 +22,10 @@ print(f'perimeter of the triangle {perimeter}')
 # Get length and width of a rectangle using prompt. Calculate its area (area = length x width) and perimeter (perimeter = 2 x (length + width))
 length : float = input('Enter the length : ')
 width : float = input('Enter the width : ')
-perimeter = 2 * (length + width)
-print(f'perimeter : {perimeter}')
+rect_area = length * width
+rect_perimeter = 2 * (length + width)
+print(f'area of rectangle : {rect_area}')
+print(f'perimeter of rectangle : {rect_perimeter}')
 
 # Get radius of a circle using prompt. Calculate the area (area = pi x r x r) and circumference (c = 2 x pi x r) where pi = 3.14.
 pi : float = 3.14
@@ -51,7 +53,7 @@ print(f"X-intercept: {x_intercept}")
 # Find the length of 'python' and 'dragon' and make a falsy comparison statement.
 var1 : str = 'python'
 var2 : str = 'dragon'
-print(f'length of pyhton {len(var1)}')
+print(f'length of python {len(var1)}')
 print(f'length of dragon {len(var2)}')
 print(len(var1) == len(var2))
 
