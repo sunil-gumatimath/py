@@ -47,14 +47,19 @@ The script is broken into clearly labelled sections:
 ## Practice Exercises
 
 Practice your skills with the list exercises in [Assignment/lists.py](../Assignment/lists.py):
-- Creating and initializing lists (empty lists, populated lists, mixed data types)
-- List indexing, slicing, and length operations
-- Adding and inserting elements (append, insert)
-- Modifying and removing elements (remove, pop, del)
-- List methods (sort, reverse, extend, copy)
-- List concatenation and joining
-- Searching and counting in lists
-- Working with multi-dimensional lists and complex data structures
+- Creating empty lists and lists with multiple items
+- Finding list length and accessing first, middle, and last items
+- Working with mixed data types in lists
+- IT companies list manipulation (Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon)
+- Modifying list items and converting to uppercase
+- Adding and inserting IT companies (append, insert)
+- Removing companies using different methods (remove, pop, del)
+- List sorting and reversing
+- List slicing (first 3, last 3, middle items)
+- Joining lists (front-end and back-end technologies)
+- Working with student ages: min, max, median, average, range calculations
+- Country list manipulation and splitting into halves
+- Unpacking lists (first three countries and rest)
 
 Experiment by:
 
