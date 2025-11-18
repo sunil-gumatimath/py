@@ -1,19 +1,57 @@
 # Concatenate the string 'Thirty', 'Days', 'Of', 'Python' to a single string, 'Thirty Days Of Python'.
+print('Thirty '+'Days '+'Of '+'Python')
+
 # Concatenate the string 'Coding', 'For' , 'All' to a single string, 'Coding For All'.
+print('Coding '+'For '+'ALL')
+
 # Declare a variable named company and assign it to an initial value "Coding For All".
+company = 'Coding For All'
+
 # Print the variable company using print().
+print(company)
+
 # Print the length of the company string using len() method and print().
+print(len(company))
+
 # Change all the characters to uppercase letters using upper() method.
+print(company.upper())
+
 # Change all the characters to lowercase letters using lower() method.
+print(company.lower())
+
 # Use capitalize(), title(), swapcase() methods to format the value of the string Coding For All.
+print(company.capitalize())
+print(company.title())
+print(company.swapcase())
+
 # Cut(slice) out the first word of Coding For All string.
+slice_company = company[0:6]
+print(slice_company)
+
 # Check if Coding For All string contains a word Coding using the method index, find or other methods.
+result = company.find('Coding')
+print(result)
+
 # Replace the word coding in the string 'Coding For All' to Python.
+print(company.replace('Coding','Python'))
+
 # Change Python for Everyone to Python for All using the replace method or other methods.
+print(company.replace('Everyone','All'))
+
 # Split the string 'Coding For All' using space as the separator (split()) .
+print(company.split(' '))
+
 # "Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon" split the string at the comma.
+company = "Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon"
+print(company.split(','))
+
 # What is the character at index 0 in the string Coding For All.
+company = 'Coding For All'
+print(company.index('C'))
+
 # What is the last index of the string Coding For All.
+print(company.index('l'))
+
 # What character is at index 10 in "Coding For All" string.
 # Create an acronym or an abbreviation for the name 'Python For Everyone'.
 # Create an acronym or an abbreviation for the name 'Coding For All'.
