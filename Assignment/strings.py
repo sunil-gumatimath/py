@@ -50,10 +50,13 @@ company = 'Coding For All'
 print(company.index('C'))
 
 # What is the last index of the string Coding For All.
-print(company.index('l'))
+print(company[-1])
 
 # What character is at index 10 in "Coding For All" string.
+print(company[10])
+
 # Create an acronym or an abbreviation for the name 'Python For Everyone'.
+
 # Create an acronym or an abbreviation for the name 'Coding For All'.
 # Use index to determine the position of the first occurrence of C in Coding For All.
 # Use index to determine the position of the first occurrence of F in Coding For All.

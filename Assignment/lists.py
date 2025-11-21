@@ -162,4 +162,4 @@ first_country, second_country, third_country, *rest = countries
 print('first company :',first_country)
 print('second company :',second_country)
 print('third company :',third_country)
-print('rest :',rest)
+print('rest',rest)

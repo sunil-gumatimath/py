@@ -79,3 +79,20 @@ Follow this recommended order for beginners:
 
 - Beginners learning Python fundamentals
 - Anyone looking for quick, focused examples of core Python concepts
+
+## Setup (Recommended for Development)
+
+1. **Activate virtual environment** (uses Python 3.13):
+   ```
+   .\.venv\Scripts\Activate.ps1
+   ```
+   (PowerShell) or `.venv\Scripts\activate.bat` (cmd). Prompt shows `(.venv)`.
+
+2. **Install dependencies**:
+   ```
+   pip install -r requirements.txt
+   ```
+
+3. **VS Code Integration**:
+   - Python interpreter auto-set to `./.venv/Scripts/python.exe`.
+   - Terminal auto-activates venv.
