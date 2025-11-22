@@ -55,7 +55,12 @@ print(company[-1])
 # What character is at index 10 in "Coding For All" string.
 print(company[10])
 
+pfe = 'Python For Everyone'
+acronym_pfe = ''.join(word[0].upper() for word in pfe.split())
+print(acronym_pfe)
+
 # Create an acronym or an abbreviation for the name 'Python For Everyone'.
+
 
 # Create an acronym or an abbreviation for the name 'Coding For All'.
 # Use index to determine the position of the first occurrence of C in Coding For All.
