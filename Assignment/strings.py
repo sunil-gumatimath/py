@@ -1,11 +1,11 @@
 # Concatenate the string 'Thirty', 'Days', 'Of', 'Python' to a single string, 'Thirty Days Of Python'.
-print('Thirty '+'Days '+'Of '+'Python')
+print("Thirty " + "Days " + "Of " + "Python")
 
 # Concatenate the string 'Coding', 'For' , 'All' to a single string, 'Coding For All'.
-print('Coding '+'For '+'ALL')
+print("Coding " + "For " + "ALL")
 
 # Declare a variable named company and assign it to an initial value "Coding For All".
-company = 'Coding For All'
+company = "Coding For All"
 
 # Print the variable company using print().
 print(company)
@@ -29,25 +29,25 @@ slice_company = company[0:6]
 print(slice_company)
 
 # Check if Coding For All string contains a word Coding using the method index, find or other methods.
-result = company.find('Coding')
+result = company.find("Coding")
 print(result)
 
 # Replace the word coding in the string 'Coding For All' to Python.
-print(company.replace('Coding','Python'))
+print(company.replace("Coding", "Python"))
 
 # Change Python for Everyone to Python for All using the replace method or other methods.
-print(company.replace('Everyone','All'))
+print(company.replace("Everyone", "All"))
 
 # Split the string 'Coding For All' using space as the separator (split()) .
-print(company.split(' '))
+print(company.split(" "))
 
 # "Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon" split the string at the comma.
 company = "Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon"
-print(company.split(','))
+print(company.split(","))
 
 # What is the character at index 0 in the string Coding For All.
-company = 'Coding For All'
-print(company.index('C'))
+company = "Coding For All"
+print(company.index("C"))
 
 # What is the last index of the string Coding For All.
 print(company[-1])
@@ -56,43 +56,52 @@ print(company[-1])
 print(company[10])
 
 # Create an acronym or an abbreviation for the name 'Python For Everyone'.
-pfe = 'Python For Everyone'
-acronym_pfe = ''.join(word[0].upper() for word in pfe.split())
+pfe = "Python For Everyone"
+acronym_pfe = "".join(word[0].upper() for word in pfe.split())
 print(acronym_pfe)
 
 # Create an acronym or an abbreviation for the name 'Coding For All'.
-pfe = 'Coding For All'
-acronym_pfe = ''.join(word[0].upper() for word in pfe.split())
+pfe = "Coding For All"
+acronym_pfe = "".join(word[0].upper() for word in pfe.split())
 print(acronym_pfe)
 
 # Use index to determine the position of the first occurrence of C in Coding For All.
-company = 'Coding For All'
-res = company.index('C')
+company = "Coding For All"
+res = company.index("C")
 print(res)
 
 # Use index to determine the position of the first occurrence of F in Coding For All.
-company = 'Coding For All'
-res = company.index('F')
+company = "Coding For All"
+res = company.index("F")
 print(res)
 
 # Use rfind to determine the position of the last occurrence of l in Coding For All People.
-company = 'Coding For All'
-res = company.rfind('l')
+company = "Coding For All"
+res = company.rfind("l")
 print(res)
 
 # Use index or find to find the position of the first occurrence of the word 'because' in the following sentence: 'You cannot end a sentence with because because because is a conjunction'
-sentence = 'You cannot end a sentence with because because because is a conjunction'
-result = sentence.index('because')
+sentence = "You cannot end a sentence with because because because is a conjunction"
+result = sentence.index("because")
 print(result)
 
 # Use rindex to find the position of the last occurrence of the word because in the following sentence: 'You cannot end a sentence with because because because is a conjunction'
-sentence = 'You cannot end a sentence with because because because is a conjunction'
-result = sentence.rfind('because')
+sentence = "You cannot end a sentence with because because because is a conjunction"
+result = sentence.rfind("because")
 print(result)
 
 # Slice out the phrase 'because because because' in the following sentence: 'You cannot end a sentence with because because because is a conjunction'
+sentence = "You cannot end a sentence with because because because is a conjunction"
+
 # Find the position of the first occurrence of the word 'because' in the following sentence: 'You cannot end a sentence with because because because is a conjunction'
+sentence = "You cannot end a sentence with because because because is a conjunction"
+result = sentence.count("because")
+print(result)
+
 # Slice out the phrase 'because because because' in the following sentence: 'You cannot end a sentence with because because because is a conjunction'
+sentence = "You cannot end a sentence with because because because is a conjunction"
+result = sentence.split()
+
 # Does ''Coding For All' start with a substring Coding?
 # Does 'Coding For All' end with a substring coding?
 # '   Coding For All      '  , remove the left and right trailing spaces in the given string.

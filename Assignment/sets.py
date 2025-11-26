@@ -1,23 +1,23 @@
 # sets
-it_companies = {'Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon'}
+it_companies = {"Facebook", "Google", "Microsoft", "Apple", "IBM", "Oracle", "Amazon"}
 A = {19, 22, 24, 20, 25, 26}
 B = {19, 22, 20, 25, 26, 24, 28, 27}
 age = [22, 19, 24, 25, 26, 24, 25, 24]
 
 # 1. Find the length of the set it_companies
-print(len(it_companies))   # 7
+print(len(it_companies))  # 7
 
 # 2. Add 'Twitter' to it_companies
-it_companies.add('Twitter')
+it_companies.add("Twitter")
 print(it_companies)
 
 # 3. Insert multiple IT companies at once to the set it_companies
-it_companies.update(['OpenAI','Anthropic','KimK2'])
+it_companies.update(["OpenAI", "Anthropic", "KimK2"])
 print(it_companies)
 
 # 4. Remove one of the companies from the set it_companies
 rm_company = it_companies.pop()
-print('removed : ',rm_company)
+print("removed : ", rm_company)
 print(it_companies)
 
 # 5. What is the difference between remove and discard
@@ -78,5 +78,5 @@ sentence = "I am a teacher and I love to inspire and teach people"
 words = sentence.split()
 unique_words = set(words)
 
-print('Unique words ',unique_words)
-print('Count : ',len(unique_words))
+print("Unique words ", unique_words)
+print("Count : ", len(unique_words))

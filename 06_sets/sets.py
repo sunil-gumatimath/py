@@ -4,124 +4,124 @@ print(st)
 print(type(st))
 
 # syntax
-st = {'item1', 'item2', 'item3', 'item4'}
+st = {"item1", "item2", "item3", "item4"}
 print(st)
 
 # syntax
-fruits = {'banana', 'orange', 'mango', 'lemon'}
+fruits = {"banana", "orange", "mango", "lemon"}
 print(fruits)
 
 
 # We use len() method to find the length of a set.
 # syntax
-st = {'item1', 'item2', 'item3', 'item4'}
+st = {"item1", "item2", "item3", "item4"}
 len(st)
 
-fruits = {'banana', 'orange', 'mango', 'lemon'}
+fruits = {"banana", "orange", "mango", "lemon"}
 print(len(fruits))
 
 # Checking an Item
 # To check if an item exist in a list we use in membership operator.
 # syntax
-st = {'item1', 'item2', 'item3', 'item4'}
-print("Does set st conatin item 3 : ", 'item3' in st) # Does set st contain item3? True
+st = {"item1", "item2", "item3", "item4"}
+print("Does set st conatin item 3 : ", "item3" in st)  # Does set st contain item3? True
 
-fruits = {'banana', 'orange', 'mango', 'lemon'}
-print('mango' in fruits)        # True
+fruits = {"banana", "orange", "mango", "lemon"}
+print("mango" in fruits)  # True
 
 # Once a set is created we cannot change any items and we can also add additional items.
 # Add one item using add()
-st = {'item1', 'item2', 'item3', 'item4'}
-st.add('item5')
+st = {"item1", "item2", "item3", "item4"}
+st.add("item5")
 print(st)
 
-fruits = {'banana', 'orange', 'mango', 'lemon'}
-fruits.add('apple')
+fruits = {"banana", "orange", "mango", "lemon"}
+fruits.add("apple")
 print(fruits)
 
 # Add multiple items using update() The update() allows to add multiple items to a set. The update() takes a list argument.
-st = {'item1','item2','item3','item4'}
-st.update(['item5','item6','item7'])
+st = {"item1", "item2", "item3", "item4"}
+st.update(["item5", "item6", "item7"])
 
 print(st)
 
-fruits = {'apple','banana','orange','mango'}
-vegetables = {'tomato','potato','cabbage','onion','carrot'}
+fruits = {"apple", "banana", "orange", "mango"}
+vegetables = {"tomato", "potato", "cabbage", "onion", "carrot"}
 fruits.update(vegetables)
 print(fruits)
 
 # Removing Items from a Set
-st = {'item1','item2','item3','item4','item5'}
-st.remove('item1')
+st = {"item1", "item2", "item3", "item4", "item5"}
+st.remove("item1")
 print(st)
 
-fruits = {'apple','banana','mango','orange'}
+fruits = {"apple", "banana", "mango", "orange"}
 rm_fruit = fruits.pop()
 # print('Removed Item :',rm_fruit)
 print(fruits)
 
 # Clearing Items in a Set
 # If we want to clear or empty the set we use clear method.
-st = {'item1','item2','item3','item4'}
+st = {"item1", "item2", "item3", "item4"}
 print(st)
 st.clear()
 print(st)
 
 # Deleting a Set
-st = {'item1','item2','item3','item4'}
+st = {"item1", "item2", "item3", "item4"}
 del st
 
-fruits = {'banana', 'orange', 'mango', 'lemon'}
+fruits = {"banana", "orange", "mango", "lemon"}
 del fruits
 
-# Converting 
-lst = ['item1','item2','item3','item4','item1','item2']
+# Converting
+lst = ["item1", "item2", "item3", "item4", "item1", "item2"]
 st = set(lst)
 print(st)
 
-fruits = {'apple','banana','orange','mango','banana','lemon','apple'}
+fruits = {"apple", "banana", "orange", "mango", "banana", "lemon", "apple"}
 st = set(fruits)
 print(st)
 
 # Joining sets
 # We can join two sets using the union() or update() method.
-st1 = {'item1','item2','item4','item6'}
-st2 = {'item5','item6','item3','item2'}
+st1 = {"item1", "item2", "item4", "item6"}
+st2 = {"item5", "item6", "item3", "item2"}
 st3 = st1.union(st2)
 print(st3)
 
-fruits = {'banana','apple','orange','lemon'}
-vegetables = {'tomato', 'potato', 'cabbage','onion', 'carrot'}
+fruits = {"banana", "apple", "orange", "lemon"}
+vegetables = {"tomato", "potato", "cabbage", "onion", "carrot"}
 print(fruits.union(vegetables))
 
 # Update This method inserts a set into a given set
 # syntax
-st1 = {'item1', 'item2', 'item3', 'item4'}
-st2 = {'item5', 'item6', 'item7', 'item8'}
-st1.update(st2) # st2 contents are added to st1
+st1 = {"item1", "item2", "item3", "item4"}
+st2 = {"item5", "item6", "item7", "item8"}
+st1.update(st2)  # st2 contents are added to st1
 print(st1)
 
-fruits = {'banana','apple','orange','lemon'}
-vegetables = {'tomato', 'potato', 'cabbage','onion', 'carrot'}
+fruits = {"banana", "apple", "orange", "lemon"}
+vegetables = {"tomato", "potato", "cabbage", "onion", "carrot"}
 fruits.update(vegetables)
 print(fruits)
 
 # Finding Intersection Items
 # Intersection returns a set of items which are in both the sets. See the example
 # syntax
-st1 = {'item1', 'item2', 'item3', 'item4'}
-st2 = {'item3', 'item2'}
-st3=st1.intersection(st2) # {'item3', 'item2'}
+st1 = {"item1", "item2", "item3", "item4"}
+st2 = {"item3", "item2"}
+st3 = st1.intersection(st2)  # {'item3', 'item2'}
 print(st3)
 
 whole_numbers = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
 even_numbers = {0, 2, 4, 6, 8, 10}
-result = whole_numbers.intersection(even_numbers) # {0, 2, 4, 6, 8, 10}
+result = whole_numbers.intersection(even_numbers)  # {0, 2, 4, 6, 8, 10}
 print(result)
 
-python = {'p', 'y', 't', 'h', 'o','n'}
-dragon = {'d', 'r', 'a', 'g', 'o','n'}
-result = python.intersection(dragon)     # {'o', 'n'}
+python = {"p", "y", "t", "h", "o", "n"}
+dragon = {"d", "r", "a", "g", "o", "n"}
+result = python.intersection(dragon)  # {'o', 'n'}
 print(result)
 
 # Checking Subset and Super Set
@@ -129,8 +129,8 @@ print(result)
 # Subset: issubset()
 # Super set: issuperset
 
-st1 = {'item1','item2','item3','item4'}
-st2 = {'item2','item3'}
+st1 = {"item1", "item2", "item3", "item4"}
+st2 = {"item2", "item3"}
 result = st2.issubset(st1)
 print(result)
 result = st1.issuperset(st2)
@@ -138,60 +138,62 @@ print(result)
 
 whole_numbers = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
 even_numbers = {0, 2, 4, 6, 8, 10}
-whole_numbers.issubset(even_numbers) # False, because it is a super set
-whole_numbers.issuperset(even_numbers) # True
+whole_numbers.issubset(even_numbers)  # False, because it is a super set
+whole_numbers.issuperset(even_numbers)  # True
 
-python = {'p', 'y', 't', 'h', 'o','n'}
-dragon = {'d', 'r', 'a', 'g', 'o','n'}
-python.issubset(dragon)     # False
+python = {"p", "y", "t", "h", "o", "n"}
+dragon = {"d", "r", "a", "g", "o", "n"}
+python.issubset(dragon)  # False
 
 # Checking the Difference Between Two Sets
 # It returns the difference between two sets.
 # syntax
-st1 = {'item1', 'item2', 'item3', 'item4'}
-st2 = {'item2', 'item3'}
-st2.difference(st1) # set()
-st1.difference(st2) # {'item1', 'item4'} => st1\st2
+st1 = {"item1", "item2", "item3", "item4"}
+st2 = {"item2", "item3"}
+st2.difference(st1)  # set()
+st1.difference(st2)  # {'item1', 'item4'} => st1\st2
 
 whole_numbers = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
 even_numbers = {0, 2, 4, 6, 8, 10}
-whole_numbers.difference(even_numbers) # {1, 3, 5, 7, 9}
+whole_numbers.difference(even_numbers)  # {1, 3, 5, 7, 9}
 
-python = {'p', 'y', 't', 'o','n'}
-dragon = {'d', 'r', 'a', 'g', 'o','n'}
-result = python.difference(dragon)     # {'p', 'y', 't'}  - the result is unordered (characteristic of sets)
+python = {"p", "y", "t", "o", "n"}
+dragon = {"d", "r", "a", "g", "o", "n"}
+result = python.difference(
+    dragon
+)  # {'p', 'y', 't'}  - the result is unordered (characteristic of sets)
 print(result)
-result = dragon.difference(python)     # {'d', 'r', 'a', 'g'}
+result = dragon.difference(python)  # {'d', 'r', 'a', 'g'}
 print(result)
 
 
 # Finding Symmetric Difference Between Two Sets
-# It returns the symmetric difference between two sets. It means that it returns a set that contains 
+# It returns the symmetric difference between two sets. It means that it returns a set that contains
 # all items from both sets, except items that are present in both sets, mathematically: (A\B) ∪ (B\A)
 # syntax
-st1 = {'item1', 'item2', 'item3', 'item4'}
-st2 = {'item2', 'item3'}
+st1 = {"item1", "item2", "item3", "item4"}
+st2 = {"item2", "item3"}
 # it means (A\B)∪(B\A)
-st2.symmetric_difference(st1) # {'item1', 'item4'}
+st2.symmetric_difference(st1)  # {'item1', 'item4'}
 
 whole_numbers = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
 some_numbers = {1, 2, 3, 4, 5}
-whole_numbers.symmetric_difference(some_numbers) # {0, 6, 7, 8, 9, 10}
+whole_numbers.symmetric_difference(some_numbers)  # {0, 6, 7, 8, 9, 10}
 
-python = {'p', 'y', 't', 'h', 'o','n'}
-dragon = {'d', 'r', 'a', 'g', 'o','n'}
+python = {"p", "y", "t", "h", "o", "n"}
+dragon = {"d", "r", "a", "g", "o", "n"}
 python.symmetric_difference(dragon)  # {'r', 't', 'p', 'y', 'g', 'a', 'd', 'h'}
 
 # Joining Sets
 # syntax
-st1 = {'item1', 'item2', 'item3', 'item4'}
-st2 = {'item2', 'item3'}
-st2.isdisjoint(st1) # False
+st1 = {"item1", "item2", "item3", "item4"}
+st2 = {"item2", "item3"}
+st2.isdisjoint(st1)  # False
 
-even_numbers = {0, 2, 4 ,6, 8}
+even_numbers = {0, 2, 4, 6, 8}
 odd_numbers = {1, 3, 5, 7, 9}
-even_numbers.isdisjoint(odd_numbers) # True, because no common item
+even_numbers.isdisjoint(odd_numbers)  # True, because no common item
 
-python = {'p', 'y', 't', 'h', 'o','n'}
-dragon = {'d', 'r', 'a', 'g', 'o','n'}
+python = {"p", "y", "t", "h", "o", "n"}
+dragon = {"d", "r", "a", "g", "o", "n"}
 python.isdisjoint(dragon)  # False, there are common items {'o', 'n'}
