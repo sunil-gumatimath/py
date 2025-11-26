@@ -92,6 +92,9 @@ print(result)
 
 # Slice out the phrase 'because because because' in the following sentence: 'You cannot end a sentence with because because because is a conjunction'
 sentence = "You cannot end a sentence with because because because is a conjunction"
+starting_index = sentence.find("because")
+result = sentence[starting_index + 23]
+print(result)
 
 # Find the position of the first occurrence of the word 'because' in the following sentence: 'You cannot end a sentence with because because because is a conjunction'
 sentence = "You cannot end a sentence with because because because is a conjunction"
@@ -100,15 +103,37 @@ print(result)
 
 # Slice out the phrase 'because because because' in the following sentence: 'You cannot end a sentence with because because because is a conjunction'
 sentence = "You cannot end a sentence with because because because is a conjunction"
-result = sentence.split()
+target = "because because because"
+start_index = sentence.find(target)
+extracted = sentence[start_index : start_index + len(target)]
+print(extracted)
 
 # Does ''Coding For All' start with a substring Coding?
+sentence = "Coding For All"
+result = sentence.startswith("Coding")
+print(result)
+
 # Does 'Coding For All' end with a substring coding?
+sentence = "Coding For All"
+result = sentence.endswith("Coding")
+print(result)
+
 # '   Coding For All      '  , remove the left and right trailing spaces in the given string.
+sentence = "   Coding For All      "
+result = sentence.strip()
+print(result)
+
 # Which one of the following variables return True when we use the method isidentifier():
 # 30DaysOfPython
+result = "30DaysOfPython".isidentifier()
+print("30DaysOfPython:", result)
+
 # thirty_days_of_python
+result = "thirty_days_of_python".isidentifier()
+print("thirty_days_of_python : ", result)
+
 # The following list contains the names of some of python libraries: ['Django', 'Flask', 'Bottle', 'Pyramid', 'Falcon']. Join the list with a hash with space string.
+
 # Use the new line escape sequence to separate the following sentences.
 # I am enjoying this challenge.
 # I just wonder what is next.
