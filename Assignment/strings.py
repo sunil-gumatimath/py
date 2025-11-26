@@ -2,7 +2,7 @@
 print("Thirty " + "Days " + "Of " + "Python")
 
 # Concatenate the string 'Coding', 'For' , 'All' to a single string, 'Coding For All'.
-print("Coding " + "For " + "ALL")
+print("Coding " + "For " + "All")
 
 # Declare a variable named company and assign it to an initial value "Coding For All".
 company = "Coding For All"
@@ -36,7 +36,8 @@ print(result)
 print(company.replace("Coding", "Python"))
 
 # Change Python for Everyone to Python for All using the replace method or other methods.
-print(company.replace("Everyone", "All"))
+string = "Python for Everyone"
+print(string.replace("Everyone", "All"))
 
 # Split the string 'Coding For All' using space as the separator (split()) .
 print(company.split(" "))
@@ -90,12 +91,6 @@ sentence = "You cannot end a sentence with because because because is a conjunct
 result = sentence.rfind("because")
 print(result)
 
-# Slice out the phrase 'because because because' in the following sentence: 'You cannot end a sentence with because because because is a conjunction'
-sentence = "You cannot end a sentence with because because because is a conjunction"
-starting_index = sentence.find("because")
-result = sentence[starting_index + 23]
-print(result)
-
 # Find the position of the first occurrence of the word 'because' in the following sentence: 'You cannot end a sentence with because because because is a conjunction'
 sentence = "You cannot end a sentence with because because because is a conjunction"
 result = sentence.count("because")
@@ -133,22 +128,49 @@ result = "thirty_days_of_python".isidentifier()
 print("thirty_days_of_python : ", result)
 
 # The following list contains the names of some of python libraries: ['Django', 'Flask', 'Bottle', 'Pyramid', 'Falcon']. Join the list with a hash with space string.
+list = ["Django", "Flask", "Bottle", "Pyramid", "Falcon"]
+result = " #".join(list)
+print(result)
 
 # Use the new line escape sequence to separate the following sentences.
 # I am enjoying this challenge.
 # I just wonder what is next.
+print("I am enjoying this challenge.\nI just wonder what is next.")
+
 # Use a tab escape sequence to write the following lines.
 # Name      Age     Country   City
 # Asabeneh  250     Finland   Helsinki
+print("Name\tAge\tCountry\tCity")
+print("Asabeneh\t250\tFinland\tHelsinki")
+
 # Use the string formatting method to display the following:
 # radius = 10
 # area = 3.14 * radius ** 2
 # The area of a circle with radius 10 is 314 meters square.
+radius = 10
+area = 3.14 * radius**2
+print(f"The area of a circle with radius {radius} is {area} meters square")
+
 # Make the following using string formatting methods:
+a = 8
+b = 6
 # 8 + 6 = 14
+print(f"{a} + {b} = {a+b}")
+
 # 8 - 6 = 2
+print(f"{8} - {6} = {a-b}")
+
 # 8 * 6 = 48
+print(f"{8} * {6} = {a*b}")
+
 # 8 / 6 = 1.33
+print(f"{8} / {6} = {a/b}")
+
 # 8 % 6 = 2
+print(f"{8} % {6} = {a%b}")
+
 # 8 // 6 = 1
+print(f"{8} // {6} = {a//b}")
+
 # 8 ** 6 = 262144
+print(f"{8} ** {6} = {a**b}")
