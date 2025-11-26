@@ -44,11 +44,11 @@ print(company.split(" "))
 
 # "Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon" split the string at the comma.
 company = "Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon"
-print(company.split(","))
+print(company.split(", "))
 
 # What is the character at index 0 in the string Coding For All.
 company = "Coding For All"
-print(company.index("C"))
+print(company[0])
 
 # What is the last index of the string Coding For All.
 print(company[-1])
@@ -83,7 +83,7 @@ print(res)
 
 # Use index or find to find the position of the first occurrence of the word 'because' in the following sentence: 'You cannot end a sentence with because because because is a conjunction'
 sentence = "You cannot end a sentence with because because because is a conjunction"
-result = sentence.index("because")
+result = sentence.find("because")
 print(result)
 
 # Use rindex to find the position of the last occurrence of the word because in the following sentence: 'You cannot end a sentence with because because because is a conjunction'
@@ -164,7 +164,7 @@ print(f"{8} - {6} = {a-b}")
 print(f"{8} * {6} = {a*b}")
 
 # 8 / 6 = 1.33
-print(f"{8} / {6} = {a/b}")
+print(f"{8} / {6} = {a/b:.2f}")
 
 # 8 % 6 = 2
 print(f"{8} % {6} = {a%b}")
