@@ -11,31 +11,31 @@ This repository is a collection of small Python scripts organized by topic. Each
 
 ## Project Structure
 
-- `01-variables/`
+- `01_variables/`
   - Declares core pieces of personal data: names, location, age, marital status.
   - Introduces list and dictionary literals (`skills`, `person_info`) and prints them directly.
   - Uses `len()` to inspect individual strings and a concatenated full name.
-- `02-operations/`
+- `02_operations/`
   - Runs through the arithmetic operators (`+`, `-`, `*`, `/`, `%`, `//`, `**`) using both literal expressions and stored variables.
   - Demonstrates float and complex literals, as well as reusing variables across multiple calculations.
   - Includes practical problems: areas of a circle and rectangle, and a simple weight computation (`mass * gravity`).
   - Shows comparison, logical, identity, and membership operators with printed outcomes for every expression.
-- `03-strings/`
+- `03_strings/`
   - Builds single-line and multi-line strings, prints their lengths, and combines first and last names.
   - Unpacks characters, explores indexing (positive and negative), and slices strings with different step values.
   - Highlights escape sequences for newlines, tabs, backslashes, and quotes.
   - Calls a suite of built-in string methods: `capitalize`, `count`, `endswith`, `find`, `format`, `join`, `strip`, `replace`, `split`, `title`, `swapcase`, and `startswith`.
-- `04-lists/`
+- `04_lists/`
   - Starts with a typed empty list before showcasing several themed lists (fruits, vegetables, animal products, web tech, countries).
   - Prints list contents, lengths, and demonstrates positive/negative indexing plus multiple slice patterns.
   - Updates items by index, checks membership, appends and inserts new elements.
   - Removes data with `remove`, `pop`, and `del` (including an intentional `NameError` when the deleted list is accessed).
   - Covers `clear`, `copy`, list concatenation and `extend`, followed by counting, indexing, reversing, and sorting examples.
-- `05-tuples/`
+- `05_tuples/`
   - Introduces tuples as ordered, immutable collections.
   - Demonstrates creating tuples, accessing elements by index, slicing, converting to lists for modification.
   - Covers membership checks, joining tuples, and deleting tuples entirely.
-- `06-sets/`
+- `06_sets/`
   - Explores sets as unordered collections of unique elements.
   - Demonstrates set creation, adding and removing items.
   - Covers set operations: union, intersection, difference, symmetric difference.
@@ -51,7 +51,7 @@ Each directory contains a dedicated `README.md` describing its script in more de
   - **operations.py**: 23 exercises covering geometry calculations, slope/distance, quadratic equations, type conversions, pay calculator
   - **strings.py**: String manipulation exercises including concatenation, case conversion, searching, slicing, formatting
   - **lists.py**: Extensive list exercises with IT companies, student ages, countries, and multi-level list operations
-  - **tuples.py**: Tuple creation, joining, converting, slicing, and membership exercises
+  - **tuples.py**: Tuple creation, joining brothers/sisters tuples into siblings, extending to family_members, unpacking, creating food tuples (fruits, vegetables, animal products), converting to lists, slicing middle items, and nordic country membership checks
   - **sets.py**: Set operations with IT companies, age sets, union/intersection/difference operations, unique word finding
 
 Each module directory contains a dedicated `README.md` describing its script in more detail.
