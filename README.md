@@ -41,20 +41,27 @@ This repository is a collection of small Python scripts organized by topic. Each
   - Covers set operations: union, intersection, difference, symmetric difference.
   - Shows subset, superset, and disjoint set relationships.
   - Highlights set methods like `add`, `update`, `remove`, `pop`, `clear`, and comparison operations.
+- `07_dictionaries/`
+  - Introduces dictionaries as mutable collections of key–value pairs.
+  - Demonstrates creating dictionaries, accessing and updating values, working with nested dictionaries, and using methods like `keys()`, `values()`, `items()`, `get()`, `pop()`, and `clear()`.
+- `08_conditionals/`
+  - Covers conditional execution with `if`, `if-else`, and `if-elif-else` blocks.
+  - Shows short-hand (ternary) conditionals, nested conditions, and combining conditions with logical operators (`and`, `or`).
 
-Each directory contains a dedicated `README.md` describing its script in more detail.
+Most module directories (01–06) contain a dedicated `README.md` describing their scripts in more detail.
 
 - `Assignment/`
   - ✅ **All assignments completed!** Comprehensive practice exercises for each module to reinforce learning concepts
-  - Includes assignments for variables, operations, strings, lists, tuples, and sets
+  - Includes assignments for variables, operations, strings, lists, tuples, sets, and dictionaries
   - **variables_builtin_fun.py**: Variable declarations, type checking, arithmetic operations, circle calculations, user input
   - **operations.py**: 23 exercises covering geometry calculations, slope/distance, quadratic equations, type conversions, pay calculator
   - **strings.py**: String manipulation exercises including concatenation, case conversion, searching, slicing, formatting
   - **lists.py**: Extensive list exercises with IT companies, student ages, countries, and multi-level list operations
   - **tuples.py**: Tuple creation, joining brothers/sisters tuples into siblings, extending to family_members, unpacking, creating food tuples (fruits, vegetables, animal products), converting to lists, slicing middle items, and nordic country membership checks
   - **sets.py**: Set operations with IT companies, age sets, union/intersection/difference operations, unique word finding
+  - **dictionaries.py**: Dictionary practice including creating and updating dictionaries, accessing keys and values, converting to lists of items, and deleting entries
 
-Each module directory contains a dedicated `README.md` describing its script in more detail.
+Each module directory generally contains a dedicated `README.md` describing its script in more detail.
 
 ## Recommended Usage
 
@@ -74,6 +81,8 @@ Follow this recommended order for beginners:
 4. **Lists** → Work with ordered collections
 5. **Tuples** → Understand immutable sequences
 6. **Sets** → Explore unique collections and set theory
+7. **Dictionaries** → Work with key–value mappings for structured data
+8. **Conditionals** → Control program flow using `if`, `elif`, and `else`
 
 ## Audience
 

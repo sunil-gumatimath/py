@@ -91,6 +91,28 @@ Welcome to the Python Learning Repository! This index provides a quick overview 
 
 ---
 
+### [07 - Dictionaries](./07_dictionaries/)
+**Python Dictionaries (Key–Value Mappings)**
+- Creating dictionaries with key–value pairs
+- Accessing, updating, and deleting entries
+- Nested dictionaries for structured data
+- Dictionary methods (`keys`, `values`, `items`, `get`, `pop`, `clear`)
+
+[💻 View Code](./07_dictionaries/dictionaries.py)
+
+---
+
+### [08 - Conditionals](./08_conditionals/)
+**Python Conditional Statements**
+- `if`, `if-else`, and `if-elif-else` blocks
+- Short-hand (ternary) conditionals
+- Nested conditions
+- Combining conditions with logical operators (`and`, `or`)
+
+[💻 View Code](./08_conditionals/conditionals.py)
+
+---
+
 ## 🎯 Learning Path
 
 Follow this recommended order for beginners:
@@ -101,6 +123,8 @@ Follow this recommended order for beginners:
 4. **Lists** → Work with ordered collections
 5. **Tuples** → Understand immutable sequences
 6. **Sets** → Explore unique collections and set theory
+7. **Dictionaries** → Work with key–value mappings for structured data
+8. **Conditionals** → Control program flow using `if`, `elif`, and `else`
 
 ## 📝 How to Use This Repository
 
