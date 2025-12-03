@@ -2,10 +2,10 @@
 
 Welcome to the Python Learning Repository! This index provides a quick overview and navigation guide to all available modules.
 
-## 📚 Table of Contents
+## Table of Contents
 
 ### [Assignments](./Assignment/)
-**✅ All assignments completed! Comprehensive Practice Exercises**
+**All assignments completed! Comprehensive Practice Exercises**
 - Complete sets of exercises for each module
 - Reinforce learning through hands-on practice
 - **variables_builtin_fun.py**: Variable declarations, type checking, arithmetic, circle calculations, user input
@@ -15,7 +15,7 @@ Welcome to the Python Learning Repository! This index provides a quick overview 
 - **tuples.py**: Tuple creation, joining, converting, slicing, membership checks
 - **sets.py**: Set operations, union/intersection/difference, unique word finding
 
-[📖 View Assignments](./Assignment/) | [💻 View Code](./Assignment/)
+[View Assignments](./Assignment/) | [View Code](./Assignment/)
 
 ---
 
@@ -26,7 +26,7 @@ Welcome to the Python Learning Repository! This index provides a quick overview 
 - Lists and dictionaries
 - String operations and length
 
-[📖 Read More](./01_variables/README.md) | [💻 View Code](./01_variables/variables.py)
+[Read More](./01_variables/README.md) | [View Code](./01_variables/variables.py)
 
 ---
 
@@ -38,7 +38,7 @@ Welcome to the Python Learning Repository! This index provides a quick overview 
 - Identity and membership operators
 - Practical calculations and examples
 
-[📖 Read More](./02_operations/README.md) | [💻 View Code](./02_operations/operations.py)
+[Read More](./02_operations/README.md) | [View Code](./02_operations/operations.py)
 
 ---
 
@@ -49,7 +49,7 @@ Welcome to the Python Learning Repository! This index provides a quick overview 
 - Escape sequences
 - Built-in string methods (`capitalize`, `count`, `endswith`, `find`, `format`, `join`, `strip`, `replace`, `split`, `title`, `swapcase`, `startswith`)
 
-[📖 Read More](./03_strings/README.md) | [💻 View Code](./03_strings/strings.py)
+[Read More](./03_strings/README.md) | [View Code](./03_strings/strings.py)
 
 ---
 
@@ -61,7 +61,7 @@ Welcome to the Python Learning Repository! This index provides a quick overview 
 - List methods (`append`, `insert`, `remove`, `pop`, `clear`, `copy`, `extend`, `count`, `index`, `reverse`, `sort`)
 - List operations and manipulation
 
-[📖 Read More](./04_lists/README.md) | [💻 View Code](./04_lists/lists.py)
+[Read More](./04_lists/README.md) | [View Code](./04_lists/lists.py)
 
 ---
 
@@ -74,7 +74,7 @@ Welcome to the Python Learning Repository! This index provides a quick overview 
 - Converting between tuples and lists
 - Tuple operations
 
-[📖 Read More](./05_tuples/README.md) | [💻 View Code](./05_tuples/tuples.py)
+[Read More](./05_tuples/README.md) | [View Code](./05_tuples/tuples.py)
 
 ---
 
@@ -87,7 +87,7 @@ Welcome to the Python Learning Repository! This index provides a quick overview 
 - Converting to sets
 - Set methods (`add`, `update`, `remove`, `pop`, `clear`, `union`, `intersection`, `difference`, `issubset`, `issuperset`)
 
-[📖 Read More](./06_sets/README.md) | [💻 View Code](./06_sets/sets.py)
+[Read More](./06_sets/README.md) | [View Code](./06_sets/sets.py)
 
 ---
 
@@ -98,7 +98,7 @@ Welcome to the Python Learning Repository! This index provides a quick overview 
 - Nested dictionaries for structured data
 - Dictionary methods (`keys`, `values`, `items`, `get`, `pop`, `clear`)
 
-[💻 View Code](./07_dictionaries/dictionaries.py)
+[View Code](./07_dictionaries/dictionaries.py)
 
 ---
 
@@ -109,11 +109,11 @@ Welcome to the Python Learning Repository! This index provides a quick overview 
 - Nested conditions
 - Combining conditions with logical operators (`and`, `or`)
 
-[💻 View Code](./08_conditionals/conditionals.py)
+[View Code](./08_conditionals/conditionals.py)
 
 ---
 
-## 🎯 Learning Path
+## Learning Path
 
 Follow this recommended order for beginners:
 
@@ -126,18 +126,18 @@ Follow this recommended order for beginners:
 7. **Dictionaries** → Work with key–value mappings for structured data
 8. **Conditionals** → Control program flow using `if`, `elif`, and `else`
 
-## 📝 How to Use This Repository
+## How to Use This Repository
 
 1. **Read the README**: Each module has a detailed README explaining concepts
 2. **Run the Scripts**: Execute the Python files to see examples in action
 3. **Experiment**: Modify the code to reinforce your understanding
 4. **Practice**: Try creating your own examples based on what you learn
 
-## 🔗 Quick Links
+## Quick Links
 
 - [Main README](./README.md) - Overview of the entire repository
 - [GitHub Repository](https://github.com/sunil-gumatimath/py) - View on GitHub
 
 ---
 
-**Happy Learning! 🐍**
+**Happy Learning!**

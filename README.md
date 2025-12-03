@@ -51,7 +51,7 @@ This repository is a collection of small Python scripts organized by topic. Each
 Most module directories (01–06) contain a dedicated `README.md` describing their scripts in more detail.
 
 - `Assignment/`
-  - ✅ **All assignments completed!** Comprehensive practice exercises for each module to reinforce learning concepts
+  - **All assignments completed!** Comprehensive practice exercises for each module to reinforce learning concepts
   - Includes assignments for variables, operations, strings, lists, tuples, sets, and dictionaries
   - **variables_builtin_fun.py**: Variable declarations, type checking, arithmetic operations, circle calculations, user input
   - **operations.py**: 23 exercises covering geometry calculations, slope/distance, quadratic equations, type conversions, pay calculator
