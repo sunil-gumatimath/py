@@ -5,6 +5,7 @@ Welcome to the Python Learning Repository! This index provides a quick overview 
 ## Table of Contents
 
 ### [Assignments](./Assignment/)
+
 **All assignments completed! Comprehensive Practice Exercises**
 - Complete sets of exercises for each module
 - Reinforce learning through hands-on practice
@@ -20,6 +21,7 @@ Welcome to the Python Learning Repository! This index provides a quick overview 
 ---
 
 ### [01 - Variables](./01_variables/)
+
 **Introduction to Python Variables**
 - Declaring and using variables
 - Working with different data types
@@ -31,6 +33,7 @@ Welcome to the Python Learning Repository! This index provides a quick overview 
 ---
 
 ### [02 - Operations](./02_operations/)
+
 **Python Operators and Expressions**
 - Arithmetic operators (`+`, `-`, `*`, `/`, `%`, `//`, `**`)
 - Comparison operators
@@ -43,6 +46,7 @@ Welcome to the Python Learning Repository! This index provides a quick overview 
 ---
 
 ### [03 - Strings](./03_strings/)
+
 **String Manipulation in Python**
 - Creating single-line and multi-line strings
 - String indexing and slicing
@@ -54,6 +58,7 @@ Welcome to the Python Learning Repository! This index provides a quick overview 
 ---
 
 ### [04 - Lists](./04_lists/)
+
 **Working with Python Lists**
 - Creating and initializing lists
 - List indexing and slicing
@@ -66,6 +71,7 @@ Welcome to the Python Learning Repository! This index provides a quick overview 
 ---
 
 ### [05 - Tuples](./05_tuples/)
+
 **Understanding Python Tuples**
 - Creating tuples
 - Tuple immutability
@@ -79,6 +85,7 @@ Welcome to the Python Learning Repository! This index provides a quick overview 
 ---
 
 ### [06 - Sets](./06_sets/)
+
 **Python Sets and Set Operations**
 - Creating sets
 - Set operations (union, intersection, difference)
@@ -92,6 +99,7 @@ Welcome to the Python Learning Repository! This index provides a quick overview 
 ---
 
 ### [07 - Dictionaries](./07_dictionaries/)
+
 **Python Dictionaries (Key–Value Mappings)**
 - Creating dictionaries with key–value pairs
 - Accessing, updating, and deleting entries
@@ -103,6 +111,7 @@ Welcome to the Python Learning Repository! This index provides a quick overview 
 ---
 
 ### [08 - Conditionals](./08_conditionals/)
+
 **Python Conditional Statements**
 - `if`, `if-else`, and `if-elif-else` blocks
 - Short-hand (ternary) conditionals

@@ -92,13 +92,16 @@ Follow this recommended order for beginners:
 ## Setup (Recommended for Development)
 
 1. **Activate virtual environment** (uses Python 3.13):
-   ```
+
+   ```powershell
    .\.venv\Scripts\Activate.ps1
    ```
+
    (PowerShell) or `.venv\Scripts\activate.bat` (cmd). Prompt shows `(.venv)`.
 
 2. **Install dependencies**:
-   ```
+
+   ```bash
    pip install -r requirements.txt
    ```
 
