@@ -5,7 +5,7 @@ Welcome to the Python Learning Repository! This index provides a quick overview 
 ## 📚 Table of Contents
 
 ### [Assignments](./Assignment/)
-**Comprehensive Practice Exercises**
+**✅ All assignments completed! Comprehensive Practice Exercises**
 - Complete sets of exercises for each module
 - Reinforce learning through hands-on practice
 - **variables_builtin_fun.py**: Variable declarations, type checking, arithmetic, circle calculations, user input
