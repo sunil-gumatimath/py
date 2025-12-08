@@ -39,46 +39,46 @@ person = {
 
 for key in person:
     print(key)
-    
-for key,value in person.items():
-    print(key,value)
-    
+
+for key, value in person.items():
+    print(key, value)
+
 # Loops in set
-it_companies = {'Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon'}
+it_companies = {"Facebook", "Google", "Microsoft", "Apple", "IBM", "Oracle", "Amazon"}
 for company in it_companies:
     print(company)
 
 # Break and Continue - Part 2
 # Short reminder: Break: We use break when we like to stop our loop before it is completed.
-numbers = (0,1,2,3,4,5)
+numbers = (0, 1, 2, 3, 4, 5)
 for number in numbers:
     print(number)
     if number == 3:
         break
 
 # Continue: We use continue when we like to skip some of the steps in the iteration of the loop.
-numbers = (0,1,2,3,4,5)
+numbers = (0, 1, 2, 3, 4, 5)
 for number in numbers:
     print(number)
     if number == 3:
         continue
-    print('Next number should be ',number + 1) if number != 5 else print("loop's end ")
-print('Outside the loops')
+    print("Next number should be ", number + 1) if number != 5 else print("loop's end ")
+print("Outside the loops")
 
 # The Range Function
 
-# The range() function is used list of numbers. The range(start, end, step) takes three parameters: starting, ending and increment. 
+# The range() function is used list of numbers. The range(start, end, step) takes three parameters: starting, ending and increment.
 # By default it starts from 0 and the increment is 1. The range sequence needs at least 1 argument (end). Creating sequences using range
 
 lst = list(range(11))
 print(lst)
 
-st = set(range(1,11))
+st = set(range(1, 11))
 print(st)
 
-lst = list(range(0,11,2))
+lst = list(range(0, 11, 2))
 print(lst)
-st = set(range(0,11,2))
+st = set(range(0, 11, 2))
 print(st)
 
 # syntax
@@ -98,7 +98,7 @@ person = {
 }
 
 for key in person:
-    if key == 'skills':
+    if key == "skills":
         for skill in person["skills"]:
             print(skill)
 
@@ -111,15 +111,14 @@ for key in person:
 # else:
 #     print('The loop ended')
 
-for number in range(0,11):
+for number in range(0, 11):
     print(number)
 else:
-    print('the loops end')
-    
+    print("the loops end")
+
 # Pass
-# In python when statement is required (after semicolon), but we don't like to execute any code there, we can write the word pass to avoid errors. 
+# In python when statement is required (after semicolon), but we don't like to execute any code there, we can write the word pass to avoid errors.
 # Also we can use it as a placeholder, for future statements.
 
 for number in range(6):
     pass
-

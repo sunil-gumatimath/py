@@ -40,11 +40,11 @@ num_1 = int(input("Enter number one: "))
 num_2 = int(input("Enter number two: "))
 
 if num_1 > num_2:
-    print(f'{num_1} is greater than {num_2}')
+    print(f"{num_1} is greater than {num_2}")
 elif num_2 > num_1:
-    print(f'{num_2} is greater than {num_1}')
+    print(f"{num_2} is greater than {num_1}")
 else:
-    print(f'{num_1} is equal to {num_2}')
+    print(f"{num_1} is equal to {num_2}")
 
 # Exercises: Level 2
 # Write a code which gives grade to students according to theirs scores:
@@ -66,18 +66,18 @@ elif marks >= 0 and marks <= 49:
 # September, October or November, the season is Autumn. December, January or February, the season is Winter.
 # March, April or May,the season is Spring June, July or August, the season is Summer
 
-month = input('Enter the month: ')
+month = input("Enter the month: ")
 
 if month == "September" or month == "October" or month == "November":
-    print('Autumn')
+    print("Autumn")
 elif month == "December" or month == "January" or month == "February":
-    print('Winter')
+    print("Winter")
 elif month == "March" or month == "April" or month == "May":
-    print('Spring')
+    print("Spring")
 elif month == "June" or month == "July" or month == "August":
-    print('Summer')
+    print("Summer")
 else:
-    print('invalid input')
+    print("invalid input")
 
 # The following list contains some fruits:
 # fruits = ['banana', 'orange', 'mango', 'lemon']
@@ -146,4 +146,6 @@ else:
 # luffy nika lives in Foosha. He is married.
 
 if person["is_marred"] == True and person["country"] == "Foosha":
-    print(f'{person["first_name"]} {person["last_name"]} lives in {person["country"]}. He is married')
+    print(
+        f'{person["first_name"]} {person["last_name"]} lives in {person["country"]}. He is married'
+    )
