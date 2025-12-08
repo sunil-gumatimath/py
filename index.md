@@ -16,6 +16,9 @@ Welcome to the Python Learning Repository! This index provides a quick overview 
 - **lists.py**: IT companies, student ages, countries - comprehensive list operations
 - **tuples.py**: Tuple creation, joining, converting, slicing, membership checks
 - **sets.py**: Set operations, union/intersection/difference, unique word finding
+- **dictionaries.py**: Dictionary creation, updating values, nested dictionaries, and common dictionary methods
+- **conditionals.py**: Practice with `if`, `elif`, `else`, logical operators, and nested conditions
+- **loops_01.py**, **loops_02.py**: While and for loops, `break`, `continue`, `range`, nested loops, and `for-else`
 
 [View Assignments](./Assignment/) | [View Code](./Assignment/)
 
@@ -131,6 +134,19 @@ Welcome to the Python Learning Repository! This index provides a quick overview 
 
 ---
 
+### [09 - Loops](./09_Loops/)
+
+**Python Loops (for and while)**
+
+- `while` loops with `break`, `continue`, and optional `else` blocks
+- `for` loops over lists, tuples, strings, dictionaries, and sets
+- Using `range()` to generate sequences of numbers
+- Nested loops and `for-else` blocks
+
+[View for_loops.py](./09_Loops/for_loops.py) | [View while_loops.py](./09_Loops/while_loops.py)
+
+---
+
 ## Learning Path
 
 Follow this recommended order for beginners:
@@ -143,6 +159,7 @@ Follow this recommended order for beginners:
 6. **Sets** → Explore unique collections and set theory
 7. **Dictionaries** → Work with key–value mappings for structured data
 8. **Conditionals** → Control program flow using `if`, `elif`, and `else`
+9. **Loops** → Learn to repeat actions using `for` and `while` loops
 
 ## How to Use This Repository
 
@@ -150,6 +167,7 @@ Follow this recommended order for beginners:
 2. **Run the Scripts**: Execute the Python files to see examples in action
 3. **Experiment**: Modify the code to reinforce your understanding
 4. **Practice**: Try creating your own examples based on what you learn
+5. **Use Assignments**: After each module, complete the matching assignment file(s) in the `Assignment/` folder to reinforce the concept.
 
 ## Quick Links
 
