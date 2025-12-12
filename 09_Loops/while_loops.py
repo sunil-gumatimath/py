@@ -10,11 +10,11 @@
 count = 0
 while count < 5:
     print(count)
-    count += 1          # Shorthand for count = count + 1
+    count += 1  # Shorthand for count = count + 1
 
 # prints 0, 1, 2, 3, 4
 
-# In the above while loop, the condition becomes false when count is 5, which is when the loop stops. 
+# In the above while loop, the condition becomes false when count is 5, which is when the loop stops.
 # If we want to run a block of code once the condition is no longer true, we can use else.
 
 # syntax
@@ -30,7 +30,7 @@ while count < 5:
 else:
     print(f"Loop ended, count is now {count}")
 
-# The above loop condition will be false when count is 5, the loop stops, and execution continues 
+# The above loop condition will be false when count is 5, the loop stops, and execution continues
 # with the else statement. As a result, "Loop ended, count is now 5" will be printed.
 
 
@@ -65,7 +65,7 @@ while count < 5:
 count = 0
 while count < 5:
     if count == 3:
-        count += 1      # Must increment before continue to avoid infinite loop
+        count += 1  # Must increment before continue to avoid infinite loop
         continue
     print(count)
     count += 1
