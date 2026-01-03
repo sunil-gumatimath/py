@@ -26,6 +26,7 @@ def add_all_nums(*arg):
 print(add_all_nums(1, 2, 3, 4))  # 10
 print(add_all_nums(1, "two", 3))
 
+
 # Temperature in °C can be converted to °F using this formula: °F = (°C x 9/5) + 32. Write a function which converts °C to °F, convert_celsius_to_fahrenheit.
 def convert_celsius_to_fahrenheit(celsius):
     return (celsius * 9 / 5) + 32
