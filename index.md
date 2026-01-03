@@ -19,6 +19,7 @@ Welcome to the Python Learning Repository! This index provides a quick overview 
 - **dictionaries.py**: Dictionary creation, updating values, nested dictionaries, and common dictionary methods
 - **conditionals.py**: Practice with `if`, `elif`, `else`, logical operators, and nested conditions
 - **loops_01.py**, **loops_02.py**: While and for loops, `break`, `continue`, `range`, nested loops, and `for-else`
+- **functions.py**: Function declarations, parameters, default values, arbitrary arguments, return values, and mathematical calculations
 
 [View Assignments](./Assignment/) | [View Code](./Assignment/)
 
@@ -147,6 +148,21 @@ Welcome to the Python Learning Repository! This index provides a quick overview 
 
 ---
 
+### [10 - Functions](./10_functions/)
+
+**Python Functions**
+
+- Declaring and calling functions
+- Functions with and without parameters
+- Default parameters
+- Arbitrary number of arguments (`*args`)
+- Returning values from functions
+- Passing functions as parameters
+
+[View functions_01.py](./10_functions/functions_01.py) | [View functions_02.py](./10_functions/functions_02.py)
+
+---
+
 ## Learning Path
 
 Follow this recommended order for beginners:
@@ -160,6 +176,7 @@ Follow this recommended order for beginners:
 7. **Dictionaries** → Work with key–value mappings for structured data
 8. **Conditionals** → Control program flow using `if`, `elif`, and `else`
 9. **Loops** → Learn to repeat actions using `for` and `while` loops
+10. **Functions** → Create reusable code blocks and organize programs into modular functions
 
 ## How to Use This Repository
 

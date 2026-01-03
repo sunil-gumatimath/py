@@ -89,6 +89,14 @@ Move through the steps in order. Each module builds on the previous ones.
 
 After completing Step 9, you will have covered the core control structures used in most Python programs.
 
+### Step 10 - Functions
+
+- **Folder:** `10_functions/`
+- **Practice:** `Assignment/functions.py`
+- **Focus:** Declaring and calling functions, functions with and without parameters, default parameters, arbitrary arguments (`*args`), returning values, and passing functions as parameters.
+
+After completing Step 10, you will have learned how to create reusable code blocks and organize your programs into modular functions.
+
 ## Assignments overview
 
 The `Assignment/` directory contains a full set of exercises for every concept:
@@ -101,6 +109,7 @@ The `Assignment/` directory contains a full set of exercises for every concept:
 - Sets
 - Dictionaries
 - Conditionals and loops
+- Functions
 
 Use these files to test your understanding after finishing each module.
 
