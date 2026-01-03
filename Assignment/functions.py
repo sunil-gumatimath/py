@@ -82,3 +82,72 @@ def reverse_list(arr):
     for item in arr:
         reversed_items.insert(0, item)
     return reversed_items
+
+
+print(reverse_list([1, 2, 3, 4, 5]))
+print(reverse_list(["A", "B", "C"]))
+
+
+# Declare a function named capitalize_list_items. It takes a list as a parameter and it returns a capitalized list of items
+def capitalize_list_items(items):
+    capitalized_items = []
+    for item in items:
+        capitalized_items.append(item.capitalize())
+    return capitalized_items
+
+
+print(capitalize_list_items(["apple", "banana", "mango"]))
+
+
+# Declare a function named add_item. It takes a list and an item parameters. It returns a list with the item added at the end.
+def add_item(items, item):
+    items.append(item)
+    return items
+
+
+food_staff = ["Potato", "Tomato", "Mango", "Milk"]
+print(add_item(food_staff, "Meat"))
+
+
+# Declare a function named remove_item. It takes a list and an item parameters. It returns a list with the item removed from it.
+def remove_item(items, item):
+    if item in items:
+        items.remove(item)
+    return item
+
+
+food_staff = ["Potato", "Tomato", "Mango", "Milk"]
+print(remove_item(food_staff, "Mango"))  # ['Potato', 'Tomato', 'Milk'];
+numbers = [2, 3, 7, 9]
+print(remove_item(numbers, 3))  # [2, 7, 9]
+
+
+# Declare a function named sum_of_numbers. It takes a number parameter and it adds all the numbers in that range.
+def sum_of_numbers(n):
+    total = 0
+    for i in range(1, n + 1):
+        total = total + i
+    return total
+
+
+print(sum_of_numbers(5))  # 15
+print(sum_of_numbers(10))  # 55
+print(sum_of_numbers(100))  # 5050
+
+
+# Declare a function named sum_of_odds. It takes a number parameter and it adds all the odd numbers in that range.
+def sum_of_odds(n):
+    total = 0
+    for i in range(1, n + 1):
+        if i % 2 != 0:
+            total += i
+    return total
+
+
+# Declare a function named sum_of_even. It takes a number parameter and it adds all the even numbers in that - range.
+def sum_of_even(n):
+    total = 0
+    for i in range(1, n + 1):
+        if i % 2 == 0:
+            total += i
+    return total
